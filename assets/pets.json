@@ -1,0 +1,25 @@
+{
+    "target_path": "legacy-media/catalogs/pets",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/be/Pets_0605.swf", "filename": "pets_2006_05/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/de/Pets_0606.swf", "filename": "pets_2006_06/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/84/Pets_0607.swf", "filename": "pets_2006_07/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4a/Pets_0610.swf", "filename": "pets_2006_10/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a4/Jan2007Pets.swf", "filename": "pets_2007_01/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/38/May2007Pets.swf", "filename": "pets_2007_05/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/66/Pet_0711.swf", "filename": "pets_2007_11/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a2/May2008LoveYourPet.swf", "filename": "pets_2008_05/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/96/Feb2009Pets.swf", "filename": "pets_2009_02/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/69/Feb2010Pets.swf", "filename": "pets_2010_02/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c5/Mar2010Pets.swf", "filename": "pets_2010_03/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d4/Mar2011Pets.swf", "filename": "pets_2011_03/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/f/f0/Oct2011Pets.swf", "filename": "pets_2011_10/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e7/ENCataloguesPetsMar2012.swf", "filename": "pets_2012_03/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/79/ENCataloguesPetsDec2013.swf", "filename": "pets_2013_12/media/play/v2/content/local/en/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2f/ENCataloguesPetsApr2014.swf", "filename": "pets_2014_04/media/play/v2/content/local/en/catalogues/pets.swf"},
+
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d0/PTCataloguesPetsMar2012.swf", "filename": "pets_2012_03/media/play/v2/content/local/pt/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/de/PTCataloguesPetsDec2013.swf", "filename": "pets_2013_12/media/play/v2/content/local/pt/catalogues/pets.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/94/PTCataloguesPetsApr2014.swf", "filename": "pets_2014_04/media/play/v2/content/local/pt/catalogues/pets.swf"}
+    ]
+}
