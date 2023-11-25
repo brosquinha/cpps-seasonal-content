@@ -1,0 +1,26 @@
+--- DoAction.as.original	2023-11-25 17:39:13.246507585 -0300
++++ DoAction.as.edited	2023-11-25 17:42:53.195625067 -0300
+@@ -5,6 +5,7 @@
+ var SHELL = _global.getCurrentShell();
+ var language;
+ var localized_frame = 4;
++var script = new Array({note:"Night of the Living Sled - LIVE!"},{name:"Rad Scientist",message:"BWA HA HA! IT'S ALIVE!"},{name:"Scared Penguin",message:"AAAHHHHH!"},{name:"Scared Penguin",message:"Is the sled still chasing us?"},{name:"Frightened Penguin",message:"No, I think we lost it!"},{name:"Frightened Penguin",message:"Quick! Block all the entrances!"},{name:"Scared Penguin",message:"That should do the trick!"},{name:"Frightened Penguin",message:"Yeah! Did you block the door too?"},{name:"Scared Penguin",message:"No...didn't you?!"},{name:"Frightened Penguin",message:"The sled is still chasing us!"},{name:"Scared Penguin",message:"What will we do?"},{name:"Frightened Penguin",message:"I know! We'll lose it on the Ski Hill!"},{name:"Scared Penguin",message:"Now we'll be safe"},{name:"Frightened Penguin",message:"Oh no! It's the sled!"},{name:"Scared Penguin",message:"That's just the Sled Racing catalog"},{name:"Frightened Penguin",message:"Not that sled. The other sled!"},{name:"Frightened Penguin",message:"Hurry! Let's escape on those tubes!"},{name:"Scared Penguin",message:"Now we'll get away for sure!"},{name:"Frightened Penguin",message:"It's right behind us!"},{name:"Scared Penguin",message:"Look out for that rock!"},{note:"The Living Sled hits the rock"},{name:"Frightened Penguin",message:"Did you see that? We got away!"},{name:"Scared Penguin",message:"Look out for that..."},{note:"They crash into a snow drift"},{name:"Scared Penguin",message:"pile of snow"},{name:"Frightened Penguin",message:"Hey! We did it! We got away from the sled!"},{name:"Scared Penguin",message:"You're right! I'm so happy!"},{note:"The Living Sled pops out of the snow pile"},{name:"Frightened Penguin",message:"AHHHHHHH!"},{note:"THE END?"},{note:"DIRECTOR"},{name:"Director",message:"Places please!"},{name:"Director",message:"And... action!"},{name:"Director",message:"Let's try that take again"},{name:"Director",message:"Fantastic acting. Well done!"});
+ if(SHELL.getLocalizedFrame != undefined)
+ {
+    localized_frame = SHELL.getLocalizedFrame();
+@@ -16,6 +17,7 @@
+       break;
+    case 2:
+       language = "pt";
++      script = new Array({note:"Noite do Trenó Zumbi- Ao Vivo!"},{name:"Cientista Maluco:",message:"MWA HA HA! ESTÁ VIVO!"},{name:"Pinguim Assustado:",message:"AAAHHHHH!"},{name:"Pinguim Assustado:",message:"O trenó ainda está atrás de nós?"},{name:"Pinguim Aterrorizado:",message:"Não, eu acho que conseguimos despitá-lo!"},{name:"Pinguim Aterrorizado:",message:"Rápido! Bloqueie todas as entradas!"},{name:"Pinguim Assustado:",message:"Isso deve funcionar!"},{name:"Pinguim Aterrorizado:",message:"Isso! Você bloqueou a porta?"},{name:"Pinguim Assustado:",message:"Não...e você?!"},{name:"Pinguim Aterrorizado:",message:"O trenó ainda está nos seguindo!"},{name:"Pinguim Assustado:",message:"O que vamos fazer agora?"},{name:"Pinguim Aterrorizado:",message:"Já sei! Vamos pela Estação de Esqui!"},{name:"Pinguim Assustado:",message:"Ufa! Estamos a salvo."},{name:"Pinguim Aterrorizado:",message:"Oh não! É o trenó!"},{name:"Pinguim Assustado:",message:"Isso é só o catálogo do Morro Abaixo."},{name:"Pinguim Aterrorizado:",message:"Não aquele trenó. O outro trenó!"},{name:"Pinguim Aterrorizado:",message:"Rápido! Vamos escapar por aqueles tubos!"},{name:"Pinguim Assustado:",message:"Agora vamos conseguir fugir com certeza!"},{name:"Pinguim Aterrorizado:",message:"Está atrás de nós!"},{name:"Pinguim Assustado:",message:"Cuidado com aquela pedra!"},{note:"O Trenó Zumbi bate na pedra"},{name:"Pinguim Aterrorizado:",message:"Viu? Conseguimos!"},{name:"Pinguim Assustado:",message:"Cuidado com..."},{note:"Eles batem num monte de neve"},{name:"Pinguim Assustado:",message:"... aquela pilha de neve."},{name:"Pinguim Aterrorizado:",message:"Ei! Conseguimos! Fugimos do trenó!"},{name:"Pinguim Assustado:",message:"É isso aí! Nem consigo acreditar!"},{note:"O Trenó Zumbi reaparece de repente"},{name:"Pinguim Aterrorizado:",message:"AHHHHHHH!"},{note:"Fim?"},{note:"Diretor"},{name:"Diretor:",message:"Em seus lugares!"},{name:"Diretor:",message:"E... Ação!"},{name:"Diretor:",message:"Vamos tentar de novo!"},{name:"Diretor:",message:"Atuação perfeita. Muito bem!"});
+       break;
+    case 3:
+       language = "fr";
+@@ -56,6 +58,7 @@
+ };
+ interface_mc.script_btn_states.script_btn.onRelease = function()
+ {
++   SHELL.setLineMessageArray(script);
+    INTERFACE.showScriptWidget();
+ };
+ triggers_mc._visible = false;

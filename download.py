@@ -52,6 +52,7 @@ def apply_hard_links(base_path: str, hard_links: list):
 
 def apply_actionscript_patches(base_path: str, as_patches: list[dict]):
     for patch in as_patches:
+        print(f'Applying patch {os.path.basename(patch["patch_filename"])}')
         path = os.path.join(base_path, patch['target_filename'])
         subprocess.run(["./jpexs/extract_actionscript.sh", path], check=True)
         subprocess.run(["patch", "DoAction.as", patch['patch_filename']], check=True)

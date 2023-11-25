@@ -1,0 +1,18 @@
+--- DoAction.as.original	2023-11-25 16:11:55.225834476 -0300
++++ DoAction.as.edited	2023-11-25 16:13:05.534018605 -0300
+@@ -33,6 +33,7 @@
+ var start_y = 330;
+ var language;
+ var localized_frame = 4;
++var script = new Array({note:"The Twelfth Fish"},{name:"Countess:",message:"The iceberg\'s a stage and we are penguins!"},{name:"Jester:",message:"A stage where every penguin plays a part."},{name:"Bard:",message:"Fair maiden, shall we go and catch some fish?"},{name:"Jester:",message:"To fish or not to fish, that is the question!"},{name:"Countess:",message:"Good plan! Fishing is such a sweet comfort."},{name:"Bard:",message:"Now is the winter of our fishing trip."},{name:"Jester:",message:"As good luck would have it!"},{name:"Bard:",message:"The first thing we do, let\'s catch all the fish."},{name:"Fish:",message:"BLUB BLUB!"},{name:"Jester:",message:"O fishing line, fishing line! Wherefore art thou doing fine?"},{name:"Fish:",message:"BLUBBETH!"},{name:"Countess:",message:"What fish through yonder ocean swim?"},{name:"Fish:",message:"DOUBLE, DOUBLE BLUB AND BUBBLE!"},{name:"Bard:",message:"But hark! What fish through yonder water peeks?"},{name:"Jester:",message:"A fish! A fish! My puffle for a fish!"},{name:"Fish:",message:"AY, THERE\'S THE BLUB!"},{name:"Countess:",message:"Something fishy this way comes."},{name:"Jester:",message:"With my empty tummy my eye doth feast."},{name:"Bard:",message:"Now please get me a dish fit for the fish!"},{name:" Fish:",message:"BUT NEVER DOUBT I BLUB!"},{name:"Countess:",message:"Get thee to a fishery!"},{name:"Jester:",message:"\"To dine, perchance to eat!"},{name:"Bard:",message:"If fish be the food of life, waddle on!"},{note:"THE END"},{note:"Improvisation"},{name:"",message:"For what is best, that best I wish in thee."},{name:"",message:"Fish, puffles, penguins, lend me your ears!"},{name:"",message:"We crew, we happy crew, we land of penguins."},{name:"",message:"Small things make penguins proud."});
+ if(SHELL.getLocalizedFrame != undefined)
+ {
+    localized_frame = SHELL.getLocalizedFrame();
+@@ -85,6 +86,7 @@
+ };
+ interface_mc.script_btn_states.script_btn.onRelease = function()
+ {
++   SHELL.setLineMessageArray(script);
+    INTERFACE.showScriptWidget();
+ };
+ triggers_mc._visible = false;
