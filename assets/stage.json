@@ -235,7 +235,11 @@
             {"patch_filename": "assets/stage_patches/team_blue_rally_debut.patch", "target_filename": "plays/team_blue_rally_debut/media/play/v2/content/global/rooms/stage.swf"},
             {"patch_filename": "assets/stage_patches/team_blue_vs_team_red.patch", "target_filename": "plays/team_blue_vs_team_red/media/play/v2/content/global/rooms/stage.swf"},
             {"patch_filename": "assets/stage_patches/twelfth_fish.patch", "target_filename": "plays/twelfth_fish/media/play/v2/content/global/rooms/stage.swf"},
-            {"patch_filename": "assets/stage_patches/underwater_adventure.patch", "target_filename": "plays/underwater_adventure/media/play/v2/content/global/rooms/stage.swf"}
+            {"patch_filename": "assets/stage_patches/underwater_adventure.patch", "target_filename": "plays/underwater_adventure/media/play/v2/content/global/rooms/stage.swf"},
+            {"patch_filename": "assets/stage_patches/battle_of_the_ancient_shadows.patch", "target_filename": "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/rooms/stage.swf", "script_path": {"source": "/__Packages/com/clubpenguin/world/rooms/StageBase.as", "target": "/__Packages/com/clubpenguin/world/rooms/StageBase"}},
+            {"patch_filename": "assets/stage_patches/humbug_holiday.patch", "target_filename": "plays/humbug_holiday/media/play/v2/content/global/rooms/stage.swf"},
+            {"patch_filename": "assets/stage_patches/herbert_story.patch", "target_filename": "plays/herbert_story/media/play/v2/content/global/rooms/stage.swf"},
+            {"patch_filename": "assets/stage_patches/vikings_that_time_forgot.patch", "target_filename": "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/stage.swf"}
         ]
     }
 }

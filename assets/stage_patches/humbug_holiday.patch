@@ -1,0 +1,26 @@
+--- DoAction.as.original	2023-11-25 19:43:21.892099481 -0300
++++ DoAction.as.edited	2023-11-25 19:49:06.025500948 -0300
+@@ -32,6 +32,7 @@
+ var start_y = 330;
+ var language;
+ var localized_frame = 1;
++var script = new Array({note:"A Humbug Holiday"},{name:"Ghost of Yesterday",message:"Knock knock!"},{name:"Humbug",message:"Who's there? Go away I'm sleeping!"},{name:"Ghost of Yesterday",message:"It's the Ghost of Yesterday. Hi!"},{name:"Humbug",message:"So? What do you want?"},{name:"Ghost of Yesterday",message:"I'm here to remind you..."},{name:"Humbug",message:"Bah! I know this story. I've been unkind, I get it"},{name:"Ghost of Yesterday",message:"Nah, I don't care about that. I'm here to remind you..."},{name:"Ghost of Yesterday",message:"...about your laundry! You left socks in the dryer"},{name:"Humbug",message:"Oh, thank you!"},{note:"Humbug goes back to sleep"},{name:"Ghost of Today",message:"Knock knock!"},{name:"Ghost of Today",message:"I said KNOCK KNOCK!"},{name:"Humbug",message:"Bah! I'm trying to sleep! Who is it now?!"},{name:"Ghost of Today",message:"It's me the Ghost of Today"},{name:"Humbug",message:"What's so important?"},{name:"Ghost of Today",message:"There's a holiday sale on fruit cake. TODAY ONLY!"},{name:"Humbug",message:"Dried fruit dessert! My favorite! Thank you, ghost"},{note:"Humbug buys eleventeen fruit cakes"},{name:"Humbug",message:"Now to enjoy this dried fruit delicacy in peace"},{name:"Humbug",message:"Ooh extra prunes!"},{name:"Ghost of Tomorrow",message:"scratches at window"},{name:"Humbug",message:"Ugh what's that awful sound?!"},{name:"Ghost of Tomorrow",message:"Fruitcaaaaake"},{name:"Humbug",message:"Who said that?"},{note:"Ghost of Tomorrow steps out of shadows"},{name:"Humbug",message:"Ghost, are you here to show me my future?"},{name:"Ghost of Tomorrow",message:"Yes!"},{name:"Humbug",message:"Well what is it?"},{name:"Ghost of Tomorrow",message:"I foresee disappointment"},{note:"Ghost snatches Humbug's fruitcake and runs away"},{name:"Humbug",message:"BAH! My fruitcake! Come back thief!"},{name:"Humbug",message:"shakes flipper"},{name:"Humbug",message:"And everyone wonders why I'm so grumpy!"},{note:"THE END!"},{note:"Director"},{name:"Director",message:"Places please!"},{name:"Director",message:"5 minute call, actors to the stage."},{name:"Director",message:"Let's take it from the top!"},{name:"Director",message:"That's a wrap!"});
+ if(SHELL.getLocalizedFrame != undefined)
+ {
+    localized_frame = SHELL.getLocalizedFrame();
+@@ -43,6 +44,7 @@
+       break;
+    case 2:
+       language = "pt";
++      script = new Array({note:"Festa do Humbug"},{name:"Fantasma do Passado:",message:"Toc toc!"},{name:"Humbug:",message:"Quem é? Vá embora, estou dormindo!"},{name:"Fantasma do Passado:",message:"É o Fantasma do Passado. Oi!"},{name:"Humbug:",message:"E? O que você quer?"},{name:"Fantasma do Passado:",message:"Estou aqui para lembrá-lo..."},{name:"Humbug:",message:"Ah! Eu conheço essa história. Fui grosseiro, eu sei"},{name:"Fantasma do Passado:",message:"Não, eu não ligo para isso. Estou aqui para lembrá-lo..."},{name:"Fantasma do Passado:",message:"...das roupas para lavar! Você deixou suas meias na secadora"},{name:"Humbug:",message:"Ah, obrigado!"},{note:"Bah! Estou tentando dormir! Quem é agora?!"},{name:"Fantasma do Presente:",message:"Toc toc!"},{name:"Fantasma do Presente:",message:"Eu disse TOC TOC!"},{name:"Humbug:",message:"Bah! Estou tentando dormir! Quem é agora?!"},{name:"Fantasma do Presente:",message:"É o Fantasma do Presente"},{name:"Humbug:",message:"O que há de tão importante?"},{name:"Fantasma do Presente:",message:"Há uma promoção especial de panetones. SÓ HOJE!"},{name:"Humbug:",message:"Panetone! Eu adoro! Obrigado, Fantasma!"},{note:"Humbug compra um zilhão de panetones"},{name:"Humbug:",message:"E vai comer todos os deliciosos panetones em paz"},{name:"Humbug:",message:"Oh! Uvas passas extras!"},{name:"Fantasma do Futuro:",message:"arranhões na janela"},{name:"Humbug:",message:"Ai, que barulho horrível é esse?!"},{name:"Fantasma do Futuro:",message:"Panetoooooooone"},{name:"Humbugm:",message:"Quem disse isso?"},{note:"O Fantasma do Futuro sai das sombras"},{name:"Humbug:",message:"Fantasma, você está aqui para me mostrar o futuro?"},{name:"Fantasma do Futuro:",message:"Sim!"},{name:"Humbug:",message:"Então, o que vai acontecer?"},{name:"Fantasma do Futuro:",message:"Eu prevejo frustração"},{note:"O Fantasma pega o panetone do Humbug e sai correndo"},{name:"Humbug:",message:"BAH! Meu panetone! Volte aqui, seu ladrão!"},{name:"Humbug:",message:"balança as nadadeiras"},{name:"Humbug:",message:"E todos ainda perguntam porque eu sou mal-humorado!"},{note:"FIM!"},{note:"Diretor"},{name:"Diretor:",message:"Em seus lugares!"},{name:"Diretor:",message:"5 minutos e, atores, já para o palco!"},{name:"Diretor:",message:"Do início..."},{name:"Diretor:",message:"Acho que por hoje é isso!"});
+       break;
+    case 3:
+       language = "fr";
+@@ -84,6 +86,7 @@
+ };
+ interface_mc.script_btn_states.script_btn.onRelease = function()
+ {
++   SHELL.setLineMessageArray(script);
+    INTERFACE.showScriptWidget();
+ };
+ interface_mc.storybook_btn.onRelease = function()
