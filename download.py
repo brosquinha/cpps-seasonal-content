@@ -56,9 +56,15 @@ def apply_actionscript_patches(base_path: str, as_patches: list[dict]):
         path = os.path.join(base_path, patch['target_filename'])
         script_path_source = patch.get('script_path', {}).get('source')
         script_path_target = patch.get('script_path', {}).get('target')
-        subprocess.run(["./jpexs/extract_actionscript.sh", path] + ([script_path_source] if script_path_source else []), check=True)
-        subprocess.run(["patch", "DoAction.as", patch['patch_filename']], check=True)
-        subprocess.run(["./jpexs/replace_actionscript.sh", path, "DoAction.as"] + ([script_path_target] if script_path_target else []), check=True)
+        subprocess.run(
+            ["./jpexs/extract_actionscript.sh", path] + ([script_path_source] if script_path_source else []),
+            check=True, capture_output=True)
+        subprocess.run(
+            ["patch", "DoAction.as", patch['patch_filename']],
+            check=True, capture_output=True)
+        subprocess.run(
+            ["./jpexs/replace_actionscript.sh", path, "DoAction.as"] + ([script_path_target] if script_path_target else []),
+            check=True, capture_output=True)
         os.replace("./output.swf", path)
     os.remove("./DoAction.as")
 
