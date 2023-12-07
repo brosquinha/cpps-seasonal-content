@@ -40,6 +40,7 @@ def run_post_scripts(assets: dict):
     post_scripts: dict = assets.get('post_scripts', {})
     apply_hard_links(assets['target_path'], post_scripts.get('hard_links'))
     apply_actionscript_patches(assets['target_path'], post_scripts.get('actionscript_patches'))
+    apply_swf_replacements(assets['target_path'], post_scripts.get('swf_replacements'))
     
 def apply_hard_links(base_path: str, hard_links: list):
     for [hard_link_target, hard_link_name] in hard_links:
@@ -67,6 +68,16 @@ def apply_actionscript_patches(base_path: str, as_patches: list[dict]):
             check=True, capture_output=True)
         os.replace("./output.swf", path)
     os.remove("./DoAction.as")
+    
+def apply_swf_replacements(base_path: str, swf_replaces: list[dict]):
+    for item in swf_replaces:
+        print(f'Replacing assets for {item["swf_filename"]}')
+        path = os.path.join(base_path, item["swf_filename"])
+        for replacement in item["replacements"]:
+            subprocess.run(
+                ["./jpexs/replace_asset.sh", path, replacement["asset_filename"], str(replacement["id"])] ,
+            check=True, capture_output=True)
+            os.replace("./output.swf", path)
 
 def main(assets_source_file):
     with open(assets_source_file) as f:

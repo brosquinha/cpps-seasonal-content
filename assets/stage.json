@@ -148,7 +148,7 @@
     "post_scripts": {
         "hard_links": [
             ["history/stage_2008_03/media/play/v2/content/global/rooms/stage.swf", "plays/space_adventure/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/space_adventure/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/space_adventure/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2008_03/media/play/v2/content/global/music/30.swf", "plays/space_adventure/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2008_03/media/play/v2/content/local/en/catalogues/costume.swf", "plays/space_adventure/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/space_adventure/media/play/v2/content/local/pt/catalogues/costume.swf"],
@@ -163,27 +163,27 @@
             ["history/stage_2009_06/media/play/v2/content/local/en/catalogues/costume.swf", "plays/fairy_fables/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/fairy_fables/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2009_09/media/play/v2/content/global/rooms/stage.swf", "plays/penguins_that_time_forgot/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/penguins_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/penguins_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2009_09/media/play/v2/content/global/music/35.swf", "plays/penguins_that_time_forgot/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2008_06/media/play/v2/content/local/en/catalogues/costume.swf", "plays/penguins_that_time_forgot/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2011_01/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/penguins_that_time_forgot/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2009_10/media/play/v2/content/global/rooms/stage.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2009_10/media/play/v2/content/global/music/32.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2009_01/media/play/v2/content/local/en/catalogues/costume.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_02/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2009_12/media/play/v2/content/global/rooms/stage.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2009_12/media/play/v2/content/global/music/42.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_04/media/play/v2/content/local/en/catalogues/costume.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/norman_swarm_has_been_transformed/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2010_05/media/play/v2/content/global/rooms/stage.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2010_05/media/play/v2/content/global/music/34.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2008_12/media/play/v2/content/local/en/catalogues/costume.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2012_03/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/quest_for_the_golden_puffle/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2010_11/media/play/v2/content/global/rooms/stage.swf", "plays/planet_y/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/planet_y/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/planet_y/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2010_11/media/play/v2/content/global/music/38.swf", "plays/planet_y/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2010_11/media/play/v2/content/local/en/catalogues/costume.swf", "plays/planet_y/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_05/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/planet_y/media/play/v2/content/local/pt/catalogues/costume.swf"],
@@ -198,32 +198,32 @@
             ["history/stage_2011_06/media/play/v2/content/local/en/catalogues/costume.swf", "plays/secrets_of_the_bamboo_forest/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/secrets_of_the_bamboo_forest/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2012_01/media/play/v2/content/global/rooms/stage.swf", "plays/twelfth_fish/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/twelfth_fish/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/twelfth_fish/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2012_01/media/play/v2/content/global/music/31.swf", "plays/twelfth_fish/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2007_12/media/play/v2/content/local/en/catalogues/costume.swf", "plays/twelfth_fish/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/twelfth_fish/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2011_02/media/play/v2/content/global/rooms/stage.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2011_02/media/play/v2/content/global/music/41.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_02/media/play/v2/content/local/en/catalogues/costume.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2013_07/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/haunting_of_the_viking_opera/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2011_05/media/play/v2/content/global/rooms/stage.swf", "plays/underwater_adventure/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/underwater_adventure/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/underwater_adventure/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2011_05/media/play/v2/content/global/music/230.swf", "plays/underwater_adventure/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_05/media/play/v2/content/local/en/catalogues/costume.swf", "plays/underwater_adventure/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2013_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/underwater_adventure/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2011_08/media/play/v2/content/global/rooms/stage.swf", "plays/team_blue_vs_team_red/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/team_blue_vs_team_red/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/team_blue_vs_team_red/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2011_08/media/play/v2/content/global/music/36.swf", "plays/team_blue_vs_team_red/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_08/media/play/v2/content/local/en/catalogues/costume.swf", "plays/team_blue_vs_team_red/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/team_blue_vs_team_red/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2011_10/media/play/v2/content/global/rooms/stage.swf", "plays/night_of_the_living_sled/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/night_of_the_living_sled/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/night_of_the_living_sled/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2011_10/media/play/v2/content/global/music/253.swf", "plays/night_of_the_living_sled/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_10/media/play/v2/content/local/en/catalogues/costume.swf", "plays/night_of_the_living_sled/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/night_of_the_living_sled/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2011_11/media/play/v2/content/global/rooms/stage.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2011_11/media/play/v2/content/global/music/314.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2011_11/media/play/v2/content/local/en/catalogues/costume.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_04/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/battle_of_the_ancient_shadows/media/play/v2/content/local/pt/catalogues/costume.swf"],
@@ -238,7 +238,7 @@
             ["history/stage_2012_02/media/play/v2/content/local/en/catalogues/costume.swf", "plays/vikings_that_time_forgot/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/vikings_that_time_forgot/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2012_11/media/play/v2/content/global/rooms/stage.swf", "plays/herbert_story/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/herbert_story/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/herbert_story/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2012_11/media/play/v2/content/global/music/41.swf", "plays/herbert_story/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2012_11/media/play/v2/content/local/en/catalogues/costume.swf", "plays/herbert_story/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2012_11/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/herbert_story/media/play/v2/content/local/pt/catalogues/costume.swf"]
@@ -263,6 +263,99 @@
             {"patch_filename": "assets/stage_patches/humbug_holiday.patch", "target_filename": "plays/humbug_holiday/media/play/v2/content/global/rooms/stage.swf"},
             {"patch_filename": "assets/stage_patches/herbert_story.patch", "target_filename": "plays/herbert_story/media/play/v2/content/global/rooms/stage.swf"},
             {"patch_filename": "assets/stage_patches/vikings_that_time_forgot.patch", "target_filename": "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/stage.swf"}
+        ],
+        "swf_replacements": [
+            {"swf_filename": "plays/space_adventure/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/space_adventure.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/space_adventure.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/space_adventure.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/space_adventure.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/space_adventure.png"}
+            ]},
+            {"swf_filename": "plays/penguins_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/penguins_that_time_forgot.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/penguins_that_time_forgot.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/penguins_that_time_forgot.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/penguins_that_time_forgot.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/penguins_that_time_forgot.png"}
+            ]},
+            {"swf_filename": "plays/squidzoid_vs_shadow_guy_and_gamma_gal/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/squidzoid_vs_shadow_guy_and_gamma_gal.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/squidzoid_vs_shadow_guy_and_gamma_gal.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/squidzoid_vs_shadow_guy_and_gamma_gal.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/squidzoid_vs_shadow_guy_and_gamma_gal.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/squidzoid_vs_shadow_guy_and_gamma_gal.png"}
+            ]},
+            {"swf_filename": "plays/norman_swarm_has_been_transformed/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/norman_swarm_has_been_transformed.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/norman_swarm_has_been_transformed.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/norman_swarm_has_been_transformed.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/norman_swarm_has_been_transformed.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/norman_swarm_has_been_transformed.png"}
+            ]},
+            {"swf_filename": "plays/quest_for_the_golden_puffle/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/quest_for_the_golden_puffle.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/quest_for_the_golden_puffle.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/quest_for_the_golden_puffle.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/quest_for_the_golden_puffle.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/quest_for_the_golden_puffle.png"}
+            ]},
+            {"swf_filename": "plays/planet_y/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/planet_y.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/planet_y.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/planet_y.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/planet_y.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/planet_y.png"}
+            ]},
+            {"swf_filename": "plays/twelfth_fish/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/twelfth_fish.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/twelfth_fish.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/twelfth_fish.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/twelfth_fish.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/twelfth_fish.png"}
+            ]},
+            {"swf_filename": "plays/haunting_of_the_viking_opera/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/haunting_of_the_viking_opera.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/haunting_of_the_viking_opera.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/haunting_of_the_viking_opera.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/haunting_of_the_viking_opera.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/haunting_of_the_viking_opera.png"}
+            ]},
+            {"swf_filename": "plays/underwater_adventure/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/underwater_adventure.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/underwater_adventure.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/underwater_adventure.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/underwater_adventure.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/underwater_adventure.png"}
+            ]},
+            {"swf_filename": "plays/team_blue_vs_team_red/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/team_blue_vs_team_red.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/team_blue_vs_team_red.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/team_blue_vs_team_red.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/team_blue_vs_team_red.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/team_blue_vs_team_red.png"}
+            ]},
+            {"swf_filename": "plays/night_of_the_living_sled/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/night_of_the_living_sled.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/night_of_the_living_sled.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/night_of_the_living_sled.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/night_of_the_living_sled.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/night_of_the_living_sled.png"}
+            ]},
+            {"swf_filename": "plays/battle_of_the_ancient_shadows/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/battle_of_the_ancient_shadows.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/battle_of_the_ancient_shadows.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/battle_of_the_ancient_shadows.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/battle_of_the_ancient_shadows.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/battle_of_the_ancient_shadows.png"}
+            ]},
+            {"swf_filename": "plays/herbert_story/media/play/v2/content/global/rooms/plaza.swf", "replacements": [
+                {"id": 65, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"},
+                {"id": 66, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"},
+                {"id": 67, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"},
+                {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"},
+                {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"}
+            ]}
         ]
     }
 }
