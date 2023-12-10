@@ -1,0 +1,21 @@
+{
+    "target_path": "legacy-media/events/dig_out_dojo",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/ff/DojoExtConstruction2008.swf", "filename": "dig_out_1/media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/13/DojoConstruction2008.swf", "filename": "dig_out_1/media/play/v2/content/global/rooms/dojo.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ad/DojoExtConstruction22008.swf", "filename": "dig_out_2/media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cf/DojoConstruction22008.swf", "filename": "dig_out_2/media/play/v2/content/global/rooms/dojo.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/48/DojoExtGrandOpening2008.swf", "filename": "inauguration/media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b2/DojoGrandOpening2008.swf", "filename": "inauguration/media/play/v2/content/global/rooms/dojo.swf"}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../media_original/play/v2/content/global/content/map.swf", "dig_out_1/media/play/v2/content/global/content/map.swf"],
+            ["../../media_original/play/v2/content/global/content/map.swf", "dig_out_2/media/play/v2/content/global/content/map.swf"]
+        ],
+        "actionscript_patches": [
+            {"patch_filename": "assets/patches/dig_out_map.patch", "target_filename": "dig_out_1/media/play/v2/content/global/content/map.swf"},
+            {"patch_filename": "assets/patches/dig_out_map.patch", "target_filename": "dig_out_2/media/play/v2/content/global/content/map.swf"}
+        ]
+    }
+}

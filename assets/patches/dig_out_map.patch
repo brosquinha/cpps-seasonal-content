@@ -1,0 +1,11 @@
+--- DoAction.as	2023-12-10 19:28:45.921852781 -0300
++++ DoAction.as.edited	2023-12-10 19:33:56.675671936 -0300
+@@ -167,7 +167,7 @@
+ };
+ dojo_btn.onRelease = function()
+ {
+-   clickMap("dojoext");
++   clickMap("dojo");
+ };
+ dojo_btn.onRollOver = function()
+ {
