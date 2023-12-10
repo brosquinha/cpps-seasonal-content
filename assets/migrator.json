@@ -1,0 +1,36 @@
+{
+    "target_path": "legacy-media/events/migrator",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/69/Leavingfaraway.swf", "filename": "leaving_far_away/media/play/v2/content/global/telescope/leavingfaraway.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2e/Leavingclose.swf", "filename": "leaving_close/media/play/v2/content/global/telescope/leavingclose.swf"}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../media_original/play/v2/content/global/telescope/empty.swf", "empty/media/play/v2/content/global/telescope/empty.swf"],
+            ["../../media_original/play/v2/content/global/telescope/comingfaraway.swf", "coming_far_away/media/play/v2/content/global/telescope/empty.swf"],
+            ["../../media_original/play/v2/content/global/telescope/comingclose.swf", "coming_close/media/play/v2/content/global/telescope/empty.swf"],
+            ["../../media_original/play/v2/content/global/telescope/empty.swf", "docked/media/play/v2/content/global/telescope/empty.swf"],
+
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "empty/media/play/v2/content/global/rooms/beach.swf"],
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "coming_far_away/media/play/v2/content/global/rooms/beach.swf"],
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "coming_close/media/play/v2/content/global/rooms/beach.swf"],
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "docked/media/play/v2/content/global/rooms/beach.swf"],
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "leaving_close/media/play/v2/content/global/rooms/beach.swf"],
+            ["leaving_close/media/play/v2/content/global/telescope/leavingclose.swf", "leaving_close/media/play/v2/content/global/telescope/empty.swf"],
+            ["../../media_original/play/v2/content/global/rooms/beach.swf", "leaving_far_away/media/play/v2/content/global/rooms/beach.swf"],
+            ["leaving_far_away/media/play/v2/content/global/telescope/leavingfaraway.swf", "leaving_far_away/media/play/v2/content/global/telescope/empty.swf"]
+        ],
+        "actionscript_patches": [
+            {"patch_filename": "assets/migrator_patches/beach_with_migrator.patch", "target_filename": "docked/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "empty/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "coming_far_away/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "coming_close/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "leaving_close/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "leaving_far_away/media/play/v2/content/global/rooms/beach.swf"}
+        ],
+        "swf_removals": [
+            {"swf_filename": "leaving_close/media/play/v2/content/global/telescope/empty.swf", "removals": [3, 5]},
+            {"swf_filename": "leaving_far_away/media/play/v2/content/global/telescope/empty.swf", "removals": [5, 7]}
+        ]
+    }
+}

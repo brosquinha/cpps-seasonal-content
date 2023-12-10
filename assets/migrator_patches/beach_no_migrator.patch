@@ -1,0 +1,32 @@
+--- DoAction.as	2023-12-10 15:14:34.536370914 -0300
++++ DoAction.as.edited	2023-12-10 15:17:11.741052106 -0300
+@@ -2,14 +2,7 @@
+ var ENGINE = _global.getCurrentEngine();
+ var start_x = 420;
+ var start_y = 340;
+-if(SHELL.isMigratorHere())
+-{
+-   background_mc.ship_mc._visible = true;
+-}
+-else
+-{
+-   background_mc.ship_mc._visible = false;
+-}
++background_mc.ship_mc._visible = false;
+ var SHELL = _global.getCurrentShell();
+ var language;
+ var localized_frame = 1;
+@@ -42,13 +35,6 @@
+ {
+    ENGINE.sendJoinRoom("light",320,310);
+ };
+-triggers_mc.ship_mc.triggerFunction = function()
+-{
+-   if(SHELL.isMigratorHere())
+-   {
+-      ENGINE.sendJoinRoom("ship",440,300);
+-   }
+-};
+ triggers_mc.village_mc.triggerFunction = function()
+ {
+    ENGINE.sendJoinRoom("village",225,375);
