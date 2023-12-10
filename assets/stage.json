@@ -153,7 +153,7 @@
             ["history/stage_2008_03/media/play/v2/content/local/en/catalogues/costume.swf", "plays/space_adventure/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/space_adventure/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2008_02/media/play/v2/content/global/rooms/stage.swf", "plays/team_blue_rally_debut/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/team_blue_rally_debut/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/team_blue_rally_debut/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2008_02/media/play/v2/content/global/music/33.swf", "plays/team_blue_rally_debut/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2008_02/media/play/v2/content/local/en/catalogues/costume.swf", "plays/team_blue_rally_debut/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/team_blue_rally_debut/media/play/v2/content/local/pt/catalogues/costume.swf"],
@@ -233,7 +233,7 @@
             ["history/stage_2011_12/media/play/v2/content/local/en/catalogues/costume.swf", "plays/humbug_holiday/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2012_12/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/humbug_holiday/media/play/v2/content/local/pt/catalogues/costume.swf"],
             ["history/stage_2013_07/media/play/v2/content/global/rooms/stage.swf", "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/stage.swf"],
-            ["../../../assets/handcrafted/plaza_no_stage_play.swf", "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf"],
+            ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf"],
             ["history/stage_2012_02/media/play/v2/content/global/music/41.swf", "plays/vikings_that_time_forgot/media/play/v2/content/global/music/39.swf"],
             ["history/stage_2012_02/media/play/v2/content/local/en/catalogues/costume.swf", "plays/vikings_that_time_forgot/media/play/v2/content/local/en/catalogues/costume.swf"],
             ["history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf", "plays/vikings_that_time_forgot/media/play/v2/content/local/pt/catalogues/costume.swf"],
@@ -356,6 +356,10 @@
                 {"id": 68, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"},
                 {"id": 69, "asset_filename": "assets/handcrafted/plaza_stage_billboards/herbert_story.png"}
             ]}
+        ],
+        "swf_removals": [
+            {"swf_filename": "plays/team_blue_rally_debut/media/play/v2/content/global/rooms/plaza.swf", "removals": [70]},
+            {"swf_filename": "plays/vikings_that_time_forgot/media/play/v2/content/global/rooms/plaza.swf", "removals": [70]}
         ]
     }
 }
