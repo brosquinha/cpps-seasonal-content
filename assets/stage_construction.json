@@ -4,5 +4,12 @@
         {"url": "https://static.miraheze.org/cparchiveswiki/2/21/ArtworkRoomsPlaza45.swf", "filename": "no_stage/media/play/v2/content/global/rooms/plaza.swf"},
         {"url": "https://static.miraheze.org/cparchiveswiki/7/79/RoomsPlaza-StageConstruction_1.swf", "filename": "construction_1/media/play/v2/content/global/rooms/plaza.swf"},
         {"url": "https://static.miraheze.org/cparchiveswiki/3/33/RoomsPlaza-StageConstruction_2.swf", "filename": "construction_2/media/play/v2/content/global/rooms/plaza.swf"}
-    ]
+    ],
+    "post_scripts": {
+        "as1_rooms": [
+            "no_stage/media/play/v2/content/global/rooms/plaza.swf",
+            "construction_1/media/play/v2/content/global/rooms/plaza.swf",
+            "construction_2/media/play/v2/content/global/rooms/plaza.swf"
+        ]
+    }
 }

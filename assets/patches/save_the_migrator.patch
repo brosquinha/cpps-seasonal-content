@@ -1,0 +1,12 @@
+--- assets/handcrafted/as1_fix.as	2023-12-15 20:35:10.327500549 -0300
++++ assets/handcrafted/as1_fix.as.edited	2023-12-15 22:05:09.900731632 -0300
+@@ -55,7 +55,8 @@
+ ENGINE.setRoomBlockMovieClip(block);
+ ENGINE.setRoomTriggersMovieClip(trigger);
+ foreground.swapDepths(900001);
+-_root.mySetup.isShip = SHELL.isMigratorHere();
++_root.mySetup.isShip = false;
++background.ship_mc._visible = false;
+ block._visible = false;
+ trigger._visible = false;
+ setTriggers();

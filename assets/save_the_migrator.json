@@ -22,10 +22,28 @@
         {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2008/rockhopper_crash_full_files/0410shiphold44.swf", "filename": "stage_A/media/play/v2/content/global/rooms/shiphold.swf"}
     ],
     "post_scripts": {
+        "as1_rooms": [
+            "stage_1/media/play/v2/content/global/rooms/beach.swf",
+            "stage_2/media/play/v2/content/global/rooms/beach.swf",
+            "stage_3/media/play/v2/content/global/rooms/beach.swf",
+            "stage_4/media/play/v2/content/global/rooms/beach.swf",
+            "stage_5/media/play/v2/content/global/rooms/beach.swf",
+            "stage_6/media/play/v2/content/global/rooms/beach.swf",
+            "stage_7/media/play/v2/content/global/rooms/beach.swf",
+            "stage_8/media/play/v2/content/global/rooms/beach.swf",
+            "stage_A/media/play/v2/content/global/rooms/beach.swf",
+            "stage_2/media/play/v2/content/global/rooms/berg.swf",
+            "stage_4/media/play/v2/content/global/rooms/berg.swf",
+            "stage_8/media/play/v2/content/global/rooms/ship.swf"
+        ],
         "hard_links": [
             ["stage_2/media/play/v2/content/global/rooms/berg.swf", "stage_3/media/play/v2/content/global/rooms/berg.swf"],
             ["stage_4/media/play/v2/content/global/rooms/berg.swf", "stage_5/media/play/v2/content/global/rooms/berg.swf"],
             ["stage_8/media/play/v2/content/global/telescope/empty.swf", "stage_9/media/play/v2/content/global/telescope/empty.swf"]
+        ],
+        "actionscript_patches": [
+            {"patch_filename": "assets/patches/save_the_migrator.patch", "target_filename": "stage_2/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/save_the_migrator.patch", "target_filename": "stage_3/media/play/v2/content/global/rooms/beach.swf"}
         ]
     }
 }

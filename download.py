@@ -38,11 +38,21 @@ def download_from_url(url: str, base_path: str, filename: str=None, retry: int=0
 
 def run_post_scripts(assets: dict):
     post_scripts: dict = assets.get('post_scripts', {})
+    fix_as1_rooms(assets['target_path'], post_scripts.get('as1_rooms', []))
     apply_hard_links(assets['target_path'], post_scripts.get('hard_links', []))
     apply_actionscript_patches(assets['target_path'], post_scripts.get('actionscript_patches', []))
     apply_swf_replacements(assets['target_path'], post_scripts.get('swf_replacements', []))
     apply_swf_removals(assets['target_path'], post_scripts.get('swf_removals', []))
     
+def fix_as1_rooms(base_path: str, filenames: list[str]):
+    for filename in filenames:
+        print(f'Fixing AS1 room {filename}')
+        path = os.path.join(base_path, filename)
+        subprocess.run(["./jpexs/fix_as1_room.sh", path], check=True, capture_output=True)
+        os.replace("./output.swf", path)
+    if os.path.exists("./DoAction.as"):
+        os.remove("./DoAction.as")
+
 def apply_hard_links(base_path: str, hard_links: list):
     for [hard_link_target, hard_link_name] in hard_links:
         hard_link_src_path = os.path.join(base_path, hard_link_target)

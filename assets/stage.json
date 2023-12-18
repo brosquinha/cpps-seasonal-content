@@ -146,6 +146,10 @@
         {"url": "https://static.miraheze.org/cparchiveswiki/b/b6/PTCataloguesCostumeJun2014.swf", "filename": "history/stage_2014_06/media/play/v2/content/local/pt/catalogues/costume.swf"}
     ],
     "post_scripts": {
+        "as1_rooms": [
+            "history/stage_2008_03/media/play/v2/content/global/rooms/stage.swf",
+            "history/stage_2008_02/media/play/v2/content/global/rooms/stage.swf"
+        ],
         "hard_links": [
             ["history/stage_2008_03/media/play/v2/content/global/rooms/stage.swf", "plays/space_adventure/media/play/v2/content/global/rooms/stage.swf"],
             ["../../media_original/play/v2/content/global/rooms/plaza.swf", "plays/space_adventure/media/play/v2/content/global/rooms/plaza.swf"],
