@@ -21,12 +21,12 @@
             ["leaving_far_away/media/play/v2/content/global/telescope/leavingfaraway.swf", "leaving_far_away/media/play/v2/content/global/telescope/empty.swf"]
         ],
         "actionscript_patches": [
-            {"patch_filename": "assets/migrator_patches/beach_with_migrator.patch", "target_filename": "docked/media/play/v2/content/global/rooms/beach.swf"},
-            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "empty/media/play/v2/content/global/rooms/beach.swf"},
-            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "coming_far_away/media/play/v2/content/global/rooms/beach.swf"},
-            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "coming_close/media/play/v2/content/global/rooms/beach.swf"},
-            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "leaving_close/media/play/v2/content/global/rooms/beach.swf"},
-            {"patch_filename": "assets/migrator_patches/beach_no_migrator.patch", "target_filename": "leaving_far_away/media/play/v2/content/global/rooms/beach.swf"}
+            {"patch_filename": "assets/patches/migrator/beach_with_migrator.patch", "target_filename": "docked/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/migrator/beach_no_migrator.patch", "target_filename": "empty/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/migrator/beach_no_migrator.patch", "target_filename": "coming_far_away/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/migrator/beach_no_migrator.patch", "target_filename": "coming_close/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/migrator/beach_no_migrator.patch", "target_filename": "leaving_close/media/play/v2/content/global/rooms/beach.swf"},
+            {"patch_filename": "assets/patches/migrator/beach_no_migrator.patch", "target_filename": "leaving_far_away/media/play/v2/content/global/rooms/beach.swf"}
         ],
         "swf_removals": [
             {"swf_filename": "leaving_close/media/play/v2/content/global/telescope/empty.swf", "removals": [3, 5]},
