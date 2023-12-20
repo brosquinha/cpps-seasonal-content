@@ -54,6 +54,7 @@ def fix_as1_rooms(base_path: str, filenames: list[str]):
         os.remove("./DoAction.as")
 
 def apply_hard_links(base_path: str, hard_links: list):
+    print("Applying hard links")
     for [hard_link_target, hard_link_name] in hard_links:
         hard_link_src_path = os.path.join(base_path, hard_link_target)
         hard_link_dst_path = os.path.join(base_path, hard_link_name)

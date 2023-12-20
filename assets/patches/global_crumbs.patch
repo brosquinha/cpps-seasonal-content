@@ -1,0 +1,82 @@
+--- global_crumbs.as	2023-12-20 11:11:11.889373583 -0300
++++ global_crumbs.as.edited	2023-12-20 12:13:06.378742491 -0300
+@@ -124,67 +124,18 @@
+ floor_crumbs[22] = {cost:530};
+ floor_crumbs[23] = {cost:750};
+ var room_crumbs = new Object();
+-room_crumbs.town = {room_id:100,music_id:0,path:"town.swf"};
+-room_crumbs.coffee = {room_id:110,music_id:1,path:"coffee.swf"};
+-room_crumbs.book = {room_id:111,music_id:1,path:"book.swf"};
+-room_crumbs.dance = {room_id:120,music_id:5,path:"dance.swf"};
+-room_crumbs.lounge = {room_id:121,music_id:6,path:"lounge.swf"};
+-room_crumbs.eco = {room_id:122,music_id:0,path:"eco.swf"};
+-room_crumbs.shop = {room_id:130,music_id:0,path:"shop.swf"};
+-room_crumbs.plaza = {room_id:300,music_id:0,path:"plaza.swf"};
+-room_crumbs.pet = {room_id:310,music_id:0,path:"pet.swf"};
+-room_crumbs.dojo = {room_id:320,music_id:21,path:"dojo.swf"};
+-room_crumbs.dojoext = {room_id:321,music_id:0,path:"dojoext.swf"};
+-room_crumbs.dojohide = {room_id:322,music_id:21,path:"dojohide.swf"};
+-room_crumbs.dojofire = {room_id:812,music_id:22,path:"dojofire.swf",is_member:true};
+-room_crumbs.dojowater = {room_id:816,music_id:406,path:"dojowater.swf",is_member:true};
+-room_crumbs.pizza = {room_id:330,music_id:20,path:"pizza.swf"};
+-room_crumbs.stage = {room_id:340,music_id:39,path:"stage.swf"};
+-room_crumbs.village = {room_id:200,music_id:0,path:"village.swf"};
+-room_crumbs.sport = {room_id:210,music_id:0,path:"sport.swf"};
+-room_crumbs.lodge = {room_id:220,music_id:0,path:"lodge.swf"};
+-room_crumbs.attic = {room_id:221,music_id:0,path:"attic.swf"};
+-room_crumbs.mtn = {room_id:230,music_id:0,path:"mtn.swf"};
+-room_crumbs.forts = {room_id:801,music_id:0,path:"forts.swf"};
+-room_crumbs.rink = {room_id:802,music_id:0,path:"rink.swf"};
+-room_crumbs.boiler = {room_id:804,music_id:6,path:"boiler.swf"};
+-room_crumbs.dock = {room_id:800,music_id:0,path:"dock.swf"};
+-room_crumbs.beach = {room_id:400,music_id:0,path:"beach.swf"};
+-room_crumbs.light = {room_id:410,music_id:0,path:"light.swf"};
+-room_crumbs.beacon = {room_id:411,music_id:0,path:"beacon.swf"};
+-room_crumbs.forest = {room_id:809,music_id:0,path:"forest.swf"};
+-room_crumbs.agent = {room_id:803,music_id:7,path:"agent.swf"};
+-room_crumbs.agentcom = {room_id:323,music_id:0,path:"agentcom.swf"};
+-room_crumbs.agentlobbysolo = {room_id:211,music_id:0,path:"agentlobbysolo.swf"};
+-room_crumbs.agentlobbymulti = {room_id:212,music_id:0,path:"agentlobbymulti.swf"};
+-room_crumbs.agentvr = {room_id:213,music_id:0,path:"agentvr.swf"};
+-room_crumbs.berg = {room_id:805,music_id:0,path:"berg.swf"};
+-room_crumbs.cove = {room_id:810,music_id:0,path:"cove.swf"};
+-room_crumbs.cave = {room_id:806,music_id:0,path:"cave.swf"};
+-room_crumbs.mine = {room_id:808,music_id:0,path:"mine.swf"};
+-room_crumbs.shack = {room_id:807,music_id:0,path:"shack.swf"};
+-room_crumbs.boxdimension = {room_id:811,music_id:264,path:"boxdimension.swf"};
+-room_crumbs.cavemine = {room_id:813,music_id:532,path:"cavemine.swf"};
+-room_crumbs.lake = {room_id:814,music_id:666,path:"lake.swf"};
+-room_crumbs.underwater = {room_id:815,music_id:671,path:"underwater.swf"};
+-room_crumbs.ship = {room_id:420,music_id:0,path:"ship.swf"};
+-room_crumbs.shipnest = {room_id:423,music_id:0,path:"shipnest.swf"};
+-room_crumbs.shiphold = {room_id:421,music_id:0,path:"shiphold.swf"};
+-room_crumbs.shipquarters = {room_id:422,music_id:0,path:"shipquarters.swf"};
+-room_crumbs.party = {room_id:899,music_id:281,path:"party.swf",is_member:true};
+-room_crumbs.party1 = {room_id:851,music_id:0,path:"party1.swf"};
+-room_crumbs.party2 = {room_id:852,music_id:0,path:"party2.swf"};
+-room_crumbs.party3 = {room_id:853,music_id:0,path:"party3.swf",is_member:true};
+-room_crumbs.party4 = {room_id:854,music_id:266,path:"party4.swf",is_member:true};
+-room_crumbs.party5 = {room_id:855,music_id:266,path:"party5.swf",is_member:true};
+-room_crumbs.party6 = {room_id:856,music_id:266,path:"party6.swf",is_member:true};
+-room_crumbs.party7 = {room_id:857,music_id:266,path:"party7.swf",is_member:true};
+-room_crumbs.party8 = {room_id:858,music_id:266,path:"party8.swf",is_member:true};
+-room_crumbs.party9 = {room_id:859,music_id:266,path:"party9.swf",is_member:true};
+-room_crumbs.party10 = {room_id:860,music_id:266,path:"party10.swf",is_member:true};
+-room_crumbs.party11 = {room_id:861,music_id:266,path:"party11.swf",is_member:true};
+-room_crumbs.party12 = {room_id:862,music_id:266,path:"party12.swf",is_member:true};
+-room_crumbs.party13 = {room_id:863,music_id:265,path:"party13.swf",is_member:true};
++
++function onRoomJsonCompleteHandler(event)
++{
++   room_crumbs = event.target.data.rooms;
++   shell.setRoomCrumbs(event.target.data.rooms);
++   flash.external.ExternalInterface.call("console.log",shell.room_crumbs);
++}
++
++var json_loader = new com.clubpenguin.util.JSONLoader();
++json_loader.addEventListener(com.clubpenguin.util.JSONLoader.COMPLETE,onRoomJsonCompleteHandler);
++json_loader.load(shell.getGlobalContentPath() + shell.CRUMBS_PATH + "rooms.json");
++
+ var puffle_crumbs = new Object();
+ puffle_crumbs[0] = {colour:3394815,max_health:100,max_hunger:100,max_rest:100};
+ puffle_crumbs[1] = {colour:16764159,max_health:100,max_hunger:120,max_rest:80};

@@ -1,0 +1,13 @@
+{
+    "target_path": "legacy-media/base",
+    "assets": [],
+    "post_scripts": {
+        "hard_links": [
+            ["../media_original/play/v2/content/global/crumbs/global_crumbs.swf", "play/v2/content/global/crumbs/global_crumbs.swf"],
+            ["../../assets/handcrafted/base_rooms.json", "play/v2/content/global/crumbs/rooms.json"]
+        ],
+        "actionscript_patches": [
+            {"patch_filename": "assets/patches/global_crumbs.patch", "target_filename": "play/v2/content/global/crumbs/global_crumbs.swf"}
+        ]
+    }
+}
