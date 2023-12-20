@@ -1,0 +1,37 @@
+{
+    "target_path": "legacy-media/parties/2011/card_jitsu",
+    "assets": [
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/f/f4/Card-JitsuPartyConsPlaza.swf", "filename": "construction/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/f/f9/Card-JitsuPartyConsRink.swf", "filename": "construction/media/play/v2/content/global/rooms/rink.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/71/RoomsTown-CardJitsuPartyPre.swf", "filename": "construction/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d2/Card-JitsuPartyBeach.swf", "filename": "party/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/10/Card-JitsuPartyCoffee.swf", "filename": "party/media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/36/Card-JitsuPartyCove.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/94/Card-JitsuPartyLounge.swf", "filename": "party/media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fc/Card-JitsuPartyDock.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/01/Card-JitsuPartyForest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c1/Card-JitsuPartyDance.swf", "filename": "party/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/05/Card-JitsuPartyParty1.swf", "filename": "party/media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b1/Card-JitsuPartyPizza.swf", "filename": "party/media/play/v2/content/global/rooms/pizza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/68/Card-JitsuPartyPlaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/51/Card-JitsuPartyForts.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fa/Card-JitsuPartyRink.swf", "filename": "party/media/play/v2/content/global/rooms/rink.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f0/RoomsTown-CardJitsuParty.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1e/Music313.swf", "filename": "party/media/play/v2/content/global/music/313.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/80/Music314.swf", "filename": "party/media/play/v2/content/global/music/314.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0a/Music116.swf", "filename": "party/media/play/v2/content/global/music/116.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/35/11242011Stage.swf", "filename": "party/media/play/v2/content/global/rooms/stage.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/eb/StartBillboardsCardJitsuPartyPre.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/9/98/CardJitsuPartyPreStartBillboards.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ab/BillboardsCard-jitsu-party.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/93/Card-JitsuPartyCardjitsu_duringparty.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/53/Card-JitsuPartyParty_map_note.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/card_jitsu_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
