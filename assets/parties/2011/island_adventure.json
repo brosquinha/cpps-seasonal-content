@@ -1,0 +1,53 @@
+{
+    "target_path": "legacy-media/parties/2011/island_adventure",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7a/IslandAdventureParty2011ConstBeach.swf", "filename": "construction/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c1/IslandAdventureParty2011ConstCove.swf", "filename": "construction/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6d/IslandAdventureParty2011ConstPlaza.swf", "filename": "construction/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9a/RoomsTown-IslandAdventureParty2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/15/IslandAdventureParty2011Beach.swf", "filename": "party/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/12/IslandAdventureParty2011Cove.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e6/IslandAdventureParty2011Dock.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/16/IslandAdventureParty2011Forest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5a/IslandAdventureParty2011Lake.swf", "filename": "party/media/play/v2/content/global/rooms/lake.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/46/IslandAdventureParty2011Berg.swf", "filename": "party/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/53/IslandAdventureParty2011Dance.swf", "filename": "party/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/27/IslandAdventureParty2011Pizza.swf", "filename": "party/media/play/v2/content/global/rooms/pizza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/aa/IslandAdventureParty2011Plaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/ca/IslandAdventureParty2011Party2.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b7/IslandAdventureParty2011Shiphold.swf", "filename": "party/media/play/v2/content/global/rooms/shiphold.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/98/IslandAdventureParty2011Village.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3c/IslandAdventureParty2011Forts.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/36/IslandAdventureParty2011Party.swf", "filename": "party/media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c8/RoomsTown-IslandAdventureParty2011.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f0/Music291.swf", "filename": "party/media/play/v2/content/global/music/291.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4e/Music290.swf", "filename": "party/media/play/v2/content/global/music/290.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/60/Music41.swf", "filename": "party/media/play/v2/content/global/music/41.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bf/Music268.swf", "filename": "party/media/play/v2/content/global/music/268.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/77/Music269.swf", "filename": "party/media/play/v2/content/global/music/269.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/17/Music267.swf", "filename": "party/media/play/v2/content/global/music/267.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/89/Music289.swf", "filename": "party/media/play/v2/content/global/music/289.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4d/IslandAdventureParty2011CatalogParty.swf", "filename": "party/media/play/v2/content/local/en/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/11/IslandAdventureParty2011Party_poster.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a4/IslandAdventureParty2011MembershipParty1.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/0/01/IslandAdventureParty2011MembershipParty2.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1e/IslandAdventureParty2011Party_poster2.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d0/IslandAdventureParty2011Party_poster3.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/16/IslandAdventureParty2011Party_note01.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5f/IslandAdventureParty2011Party_note02.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/61/IslandAdventureParty2011Party_note03.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2d/IslandAdventureParty2011Party_note04.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e2/IslandAdventureParty2011Party_note05.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9a/IslandAdventureParty2011Party_note06.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c9/IslandAdventureParty2011Party_map_note.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/51/LoginIslandAdventureParty2011.swf", "filename": ""}
+
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/island_adventure_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
