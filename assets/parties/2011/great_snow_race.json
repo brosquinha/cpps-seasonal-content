@@ -1,0 +1,32 @@
+{
+    "target_path": "legacy-media/parties/2011/great_snow_race",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/97/TheGreatSnowRaceConstVillage.swf", "filename": "construction/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/04/TheGreatSnowRaceParty3.swf", "filename": "party/media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/b/b0/TheGreatSnowRaceParty10.swf", "filename": "party/media/play/v2/content/global/rooms/party10.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/48/TheGreatSnowRaceParty6.swf", "filename": "party/media/play/v2/content/global/rooms/party6.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bd/TheGreatSnowRaceParty2.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/06/TheGreatSnowRaceParty7.swf", "filename": "party/media/play/v2/content/global/rooms/party7.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9e/TheGreatSnowRaceParty8.swf", "filename": "party/media/play/v2/content/global/rooms/party8.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5c/TheGreatSnowRaceParty9.swf", "filename": "party/media/play/v2/content/global/rooms/party9.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/34/TheGreatSnowRaceParty4.swf", "filename": "party/media/play/v2/content/global/rooms/party4.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/48/TheGreatSnowRaceParty5.swf", "filename": "party/media/play/v2/content/global/rooms/party5.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/db/TheGreatSnowRacePlaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/TheGreatSnowRaceVillage.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/46/TheGreatSnowRaceParty1.swf", "filename": "party/media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9d/RoomsTown-GreatSnowRace.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/94/Music294.swf", "filename": "party/media/play/v2/content/global/music/294.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a8/Music295.swf", "filename": "party/media/play/v2/content/global/music/295.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/33/Music256.swf", "filename": "party/media/play/v2/content/global/music/256.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/73/TheGreatSnowRacePoster.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fa/TheGreatSnowRaceCatalogParty.swf", "filename": "party/media/play/v2/content/local/en/catalogues/party.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7d/TheGreatSnowRaceParty_map_note.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/great_snow_race_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
