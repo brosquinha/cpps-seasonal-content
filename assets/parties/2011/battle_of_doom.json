@@ -1,0 +1,24 @@
+{
+    "target_path": "legacy-media/parties/2011/battle_of_doom",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/ce/BattleofDoomParty.swf", "filename": "party/media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ac/BattleofDoomParty2.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7e/BattleofDoomAgentlobbymulti.swf", "filename": "party/media/play/v2/content/global/rooms/agentlobbymulti.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5b/BattleofDoomAgentlobbysolo.swf", "filename": "party/media/play/v2/content/global/rooms/agentlobbysolo.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/42/BattleofDoomVillage.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6c/Music125.swf", "filename": "party/media/play/v2/content/global/music/125.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f6/ENBattleofDoomHerbertTaunt.swf", "filename": "party/play/v2/content/local/en/close_ups/herbert_taunt.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/84/PTBattleofDoomHerbertTaunt.swf", "filename": "party/play/v2/content/local/pt/close_ups/herbert_taunt.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/96/FRBattleofDoomHerbertTaunt.swf", "filename": "party/play/v2/content/local/fr/close_ups/herbert_taunt.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/57/ESBattleofDoomHerbertTaunt.swf", "filename": "party/play/v2/content/local/es/close_ups/herbert_taunt.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c1/ENBattleofDoomHerbertTaunt2.swf", "filename": "party/play/v2/content/local/en/close_ups/herbert_taunt_defeated.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/12/PTBattleofDoomHerbertTaunt2.swf", "filename": "party/play/v2/content/local/pt/close_ups/herbert_taunt_defeated.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d4/FRBattleofDoomHerbertTaunt2.swf", "filename": "party/play/v2/content/local/fr/close_ups/herbert_taunt_defeated.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ae/ESBattleofDoomHerbertTaunt2.swf", "filename": "party/play/v2/content/local/es/close_ups/herbert_taunt_defeated.swf"}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/battle_of_doom_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
