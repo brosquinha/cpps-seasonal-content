@@ -1,0 +1,34 @@
+{
+    "target_path": "legacy-media/parties/2011/earth_day",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/ba/EarthDay2011Dock.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/EarthDay2011Forest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9f/EarthDay2011Plaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/51/EarthDay2011Forts.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7e/RoomsTown-March2011.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/77/Music269.swf", "filename": "party/media/play/v2/content/global/music/269.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a8/Music295.swf", "filename": "party/media/play/v2/content/global/music/295.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8b/EarthDay2011Poster.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0b/EarthDay2011CatalogParty.swf", "filename": "party/media/play/v2/content/local/en/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/59/EarthDay2011CatalogParty2.swf", "filename": "party/media/play/v2/content/local/en/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/12/EasterEggHunt2011Cave.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/ba/EarthDay2011Dock.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cb/EasterEggHunt2011Dojo.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/dojo.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/EarthDay2011Forest.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e0/EasterEggHunt2011Attic.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/attic.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ac/EasterEggHunt2011Shack.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/shack.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/99/EasterEggHunt2011Mtn.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/mtn.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/51/EarthDay2011Forts.swf", "filename": "easter_egg_hunt/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9f/EasterEggHunt2011Scavenger_hunt.swf", "filename": "easter_egg_hunt/media/play/v2/content/local/en/catalogues/party.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/21/LoginEarth_day1.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/85/EarthDay2011Earth_day_video.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7d/TheGreatSnowRaceParty_map_note.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/earth_day_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
