@@ -1,0 +1,58 @@
+{
+    "target_path": "legacy-media/parties/2011/puffle",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/46/PuffleParty2011ConstBeacon.swf", "filename": "construction/media/play/v2/content/global/rooms/beacon.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d1/PuffleParty2011ConstBoxDimension.swf", "filename": "construction/media/play/v2/content/global/rooms/boxdimension.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3b/PuffleParty2010ConstCave.swf", "filename": "construction/media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4f/PuffleParty2011ConstLounge.swf", "filename": "construction/media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/24/PuffleParty2011ConstForest.swf", "filename": "construction/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/03/PuffleParty2011ConstBerg.swf", "filename": "construction/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d7/PuffleParty2011ConstLight.swf", "filename": "construction/media/play/v2/content/global/rooms/light.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bc/PuffleParty2011ConstMine.swf", "filename": "construction/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d1/PuffleParty2011ConstDance.swf", "filename": "construction/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7a/PuffleParty2011Beach.swf", "filename": "party/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c7/PuffleParty2011Beacon.swf", "filename": "party/media/play/v2/content/global/rooms/beacon.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/70/PuffleParty2011BoxDimension.swf", "filename": "party/media/play/v2/content/global/rooms/boxdimension.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/87/PuffleParty2011Cave.swf", "filename": "party/media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cb/PuffleParty2011Cove.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/33/PuffleParty2011Lounge.swf", "filename": "party/media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1b/PuffleParty2011Dock.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/53/PuffleParty2011Forest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/89/PuffleParty2011Berg.swf", "filename": "party/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ea/PuffleParty2011Light.swf", "filename": "party/media/play/v2/content/global/rooms/light.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cc/PuffleParty2011Mine.swf", "filename": "party/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/ce/PuffleParty2011Dance.swf", "filename": "party/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/dd/PuffleParty2011Party3.swf", "filename": "party/media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/85/PuffleParty2011Pet.swf", "filename": "party/media/play/v2/content/global/rooms/pet.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/37/PuffleParty2011Plaza%281%29.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1c/PuffleParty2011Plaza%282%29.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a9/PuffleParty2011Party1.swf", "filename": "party/media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/66/PuffleParty2011Party2.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bd/PuffleParty2011Village.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/11/PuffleParty2011Forts.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/43/RoomsTown-PuffleParty2011.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2a/Music261.swf", "filename": "party/media/play/v2/content/global/music/261.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8a/Music260.swf", "filename": "party/media/play/v2/content/global/music/260.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4e/Music290.swf", "filename": "party/media/play/v2/content/global/music/290.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/38/Music31.swf", "filename": "party/media/play/v2/content/global/music/31.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/33/Music256.swf", "filename": "party/media/play/v2/content/global/music/256.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c4/Music213.swf", "filename": "party/media/play/v2/content/global/music/213.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f2/Music282.swf", "filename": "party/media/play/v2/content/global/music/282.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2e/Music272.swf", "filename": "party/media/play/v2/content/global/music/272.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f5/Music249.swf", "filename": "party/media/play/v2/content/global/music/249.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d2/Music275.swf", "filename": "party/media/play/v2/content/global/music/275.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e1/Music258.swf", "filename": "party/media/play/v2/content/global/music/258.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4f/PuffleParty2011Poster.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b7/PuffleParty2011MembershipParty2.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e2/PuffleParty2011MembershipParty3.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/c/c1/LoginPuffleParty2011(1).swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d2/LoginPuffleParty2011%282%29.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2011/puffle_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
