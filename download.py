@@ -101,9 +101,13 @@ def apply_swf_removals(base_path: str, swf_removals: list[dict]):
             check=True, capture_output=True)
         os.replace("./output.swf", path)
 
-def main(assets_source_file):
+def main(assets_source_file: str, legacy_media_path: str):
     with open(assets_source_file) as f:
         assets = json.load(f)
+        legacy_media_path = os.path.normpath(legacy_media_path)
+        if os.path.basename(legacy_media_path) == 'legacy-media':
+            legacy_media_path, _ = os.path.split(legacy_media_path)
+        assets['target_path'] = os.path.join(legacy_media_path, assets['target_path'])
         
     target_path = assets['target_path']
     arguments = [(x['url'], target_path, x['filename']) for x in assets['assets']]
@@ -114,6 +118,7 @@ def main(assets_source_file):
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument("assets_file_path")
+    parser.add_argument("--legacy_media_path", default=".", required=False)
     args = parser.parse_args()
     
-    main(args.assets_file_path)
+    main(args.assets_file_path, legacy_media_path=args.legacy_media_path)

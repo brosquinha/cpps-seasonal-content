@@ -1,5 +1,5 @@
 {
-    "target_path": "legacy-media/events/migrator",
+    "target_path": "legacy-media/rooms/migrator",
     "assets": [
         {"url": "https://static.miraheze.org/cparchiveswiki/6/69/Leavingfaraway.swf", "filename": "leaving_far_away/media/play/v2/content/global/telescope/leavingfaraway.swf"},
         {"url": "https://static.miraheze.org/cparchiveswiki/2/2e/Leavingclose.swf", "filename": "leaving_close/media/play/v2/content/global/telescope/leavingclose.swf"}
