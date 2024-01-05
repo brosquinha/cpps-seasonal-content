@@ -1,0 +1,10 @@
+{
+    "title": "Club Penguin content rotation",
+    "auth": {
+        "type": "htpasswd",
+        "htpasswd_path": "/app/.htpasswd"
+    },
+    "access": {
+        "admin_users": ["admin"]
+    }
+}

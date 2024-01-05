@@ -1,2 +1,4 @@
 .vscode/
 legacy-media/
+.env
+script_server/.htpasswd

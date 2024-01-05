@@ -1,0 +1,19 @@
+{
+  "id": "1",
+  "user": {
+    "user_id": "172.18.0.1-6df4a139cd9741cc",
+    "audit_names": {
+      "ip": "172.18.0.1",
+      "hostname": "admin"
+    }
+  },
+  "schedule": {
+    "repeatable": true,
+    "start_datetime": "2024-01-05T00:00:00.000000Z",
+    "executions_count": 0,
+    "repeat_unit": "days",
+    "repeat_period": 1
+  },
+  "script_name": "scheduler",
+  "parameter_values": {}
+}

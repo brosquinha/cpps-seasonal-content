@@ -1,0 +1,11 @@
+{
+    "script_path": "python scripts/scheduler.py",
+    "scheduling": {
+        "enabled": true,
+        "auto_cleanup": true
+    },
+    "parameters": [
+        {"name": "Source", "constant": true, "default": "scripts/schedules.json"},
+        {"name": "Media path", "constant": true, "default": "/legacy-media"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "script_path": "./scripts/promote_to_live.sh",
+    "parameters": [
+        {"name": "Target", "type": "list", "values": {"script": "python /app/scripts/list_valid_targets.py /legacy-media"}},
+        {"constant": true, "default": "/legacy-media", "name": "Destination"}
+    ]
+}

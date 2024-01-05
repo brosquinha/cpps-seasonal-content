@@ -1,0 +1,22 @@
+version: "3"
+services:
+  script_server:
+    build: 
+      context: .
+      dockerfile_inline: |
+        FROM bugy/script-server:latest
+        RUN apt update && apt install -y rsync apache2-utils
+        RUN chown -R 1000:1000 /app
+    container_name: script_server
+    restart: always
+    user: 1000:1000
+    ports: 
+      - 5000:5000
+    volumes:
+      - ./script_server/conf.json:/app/conf/conf.json
+      - ./script_server/.htpasswd:/app/.htpasswd
+      - ./script_server/runners:/app/conf/runners
+      - ./script_server/schedules:/app/conf/schedules
+      - ./script_server/scripts:/app/scripts
+      - ./promote_to_live.sh:/app/scripts/promote_to_live.sh
+      - ${LEGACY_MEDIA_PATH}:/legacy-media
