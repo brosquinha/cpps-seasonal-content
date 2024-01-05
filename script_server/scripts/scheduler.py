@@ -32,12 +32,15 @@ def deploy_version(legacy_media_path: str, version_path: str):
                     os.path.join(legacy_media_path, "media/")], check=True)
 
 def deploy_catalogs(legacy_media_path: str, all_catalogs: dict):
-    for catalog_type, catalogs in all_catalogs.items():
-        if not catalogs:
+    for catalog_type, schedules in all_catalogs.items():
+        if not schedules:
             continue
-        years = len(set([x["start_at"][0] for x in catalogs]))
-        catalog = next((catalogs[i-1] for i, x in enumerate(catalogs) if compare_now(x['start_at'], years=years) > 0), catalogs[-1])
-        deploy_version(legacy_media_path, os.path.join(legacy_media_path, "catalogs", catalog_type, catalog["name"], "media"))
+        years = len(set([x["start_at"][0] for x in schedules]))
+        catalog_version = next(
+            (schedules[i-1] for i, x in enumerate(schedules) if compare_now(x['start_at'], years=years) > 0),
+            schedules[-1])
+        deploy_version(legacy_media_path, os.path.join(
+            legacy_media_path, "catalogs", catalog_type, catalog_version["name"], "media"))
     
 def compare_now(relative_date: list[int], years: int) -> int:
     if len(relative_date) != 3:
@@ -50,8 +53,16 @@ def compare_now(relative_date: list[int], years: int) -> int:
             return 1 if d > n else -1
     return 0
 
-def deploy_rooms(legacy_media_path: str, rooms: list[dict]):
-    pass
+def deploy_rooms(legacy_media_path: str, rooms: dict):
+    for room, schedules in rooms.items():
+        if not schedules:
+            continue
+        years = len(set([x["start_at"][0] for x in schedules]))
+        room_version = next(
+            (schedules[i-1] for i, x in enumerate(schedules) if compare_now(x['start_at'], years=years) > 0),
+            schedules[-1])
+        deploy_version(legacy_media_path, os.path.join(
+            legacy_media_path, "rooms", room, room_version["name"], "media"))
 
 def deploy_events(legacy_media_path: str, events: list[dict]):
     pass
