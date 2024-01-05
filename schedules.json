@@ -1,0 +1,53 @@
+{
+    "catalogs": {
+        "clothing": [
+            {"name": "clothing_2006_01", "start_at": [0, 1, 1]},
+            {"name": "clothing_2006_02", "start_at": [0, 2, 1]},
+            {"name": "clothing_2006_03", "start_at": [0, 3, 1]},
+            {"name": "clothing_2006_04", "start_at": [0, 4, 1]},
+            {"name": "clothing_2006_05", "start_at": [0, 5, 1]},
+            {"name": "clothing_2006_06", "start_at": [0, 6, 1]},
+            {"name": "clothing_2006_07", "start_at": [0, 7, 1]},
+            {"name": "clothing_2006_08", "start_at": [0, 8, 1]},
+            {"name": "clothing_2006_09", "start_at": [0, 9, 1]},
+            {"name": "clothing_2006_10", "start_at": [0, 10, 1]},
+            {"name": "clothing_2006_11", "start_at": [0, 11, 1]},
+            {"name": "clothing_2006_12", "start_at": [0, 12, 1]}
+        ],
+        "furniture": [],
+        "igloo": [],
+        "pets": [],
+        "pirate": [],
+        "sport": []
+    },
+    "rooms": {
+        "stage": [],
+        "migrator": []
+    },
+    "events": [],
+    "parties": [
+        {"name": "2011/wilderness_expedition/party", "start_at": [0, 1, 18], "end_at": [0, 1, 31]},
+        {"name": "2011/puffle/construction", "start_at": [0, 2, 15], "end_at": [0, 2, 18]},
+        {"name": "2011/puffle/party", "start_at": [0, 2, 18], "end_at": [0, 1, 28]},
+        {"name": "2011/april_fools/construction", "start_at": [0, 3, 23], "end_at": [0, 3, 25]},
+        {"name": "2011/april_fools/party", "start_at": [0, 3, 25], "end_at": [0, 4, 9]},
+        {"name": "2011/earth_day/party", "start_at": [0, 4, 20], "end_at": [0, 4, 30]},
+        {"name": "2011/earth_day/easter_egg_hunt", "start_at": [0, 4, 21], "end_at": [0, 4, 28]},
+        {"name": "2011/medieval/construction", "start_at": [0, 5, 15], "end_at": [0, 5, 20]},
+        {"name": "2011/medieval/party", "start_at": [0, 5, 20], "end_at": [0, 5, 29]},
+        {"name": "2011/battle_of_doom/party", "start_at": [0, 6, 1], "end_at": [0, 6, 7]},
+        {"name": "2011/music/party", "start_at": [0, 6, 16], "end_at": [0, 6, 30]},
+        {"name": "2011/island_adventure/construction", "start_at": [0, 7, 16], "end_at": [0, 7, 21]},
+        {"name": "2011/island_adventure/party", "start_at": [0, 7, 21], "end_at": [0, 7, 31]},
+        {"name": "2011/great_snow_race/construction", "start_at": [0, 8, 20], "end_at": [0, 8, 25]},
+        {"name": "2011/great_snow_race/party", "start_at": [0, 8, 25], "end_at": [0, 8, 30]},
+        {"name": "2011/fair/construction", "start_at": [0, 9, 17], "end_at": [0, 9, 22]},
+        {"name": "2011/fair/party", "start_at": [0, 9, 22], "end_at": [0, 10, 4]},
+        {"name": "2011/halloween/party", "start_at": [0, 10, 20], "end_at": [0, 11, 1]},
+        {"name": "2011/halloween/anniversary", "start_at": [0, 10, 23], "end_at": [0, 10, 28]},
+        {"name": "2011/card_jitsu/construction", "start_at": [0, 11, 19], "end_at": [0, 11, 24]},
+        {"name": "2011/card_jitsu/party", "start_at": [0, 11, 24], "end_at": [0, 12, 6]},
+        {"name": "2011/holiday/construction", "start_at": [0, 12, 10], "end_at": [0, 12, 15]},
+        {"name": "2011/holiday/party", "start_at": [0, 12, 15], "end_at": [0, 12, 28]}
+    ]
+}
