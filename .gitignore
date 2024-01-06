@@ -2,3 +2,4 @@
 legacy-media/
 .env
 script_server/.htpasswd
+script_server/scripts/schedules.json
