@@ -66,5 +66,40 @@
         {"url": "https://toolbox.solero.me/cparchives/static/images/archives/c/c3/OctNov2011Furniture.swf", "filename": "furniture_2011_10/media/play/v2/content/local/en/catalogues/furniture.swf"},
         {"url": "https://toolbox.solero.me/cparchives/static/images/archives/6/6f/NovDec2011Furniture.swf", "filename": "furniture_2011_11/media/play/v2/content/local/en/catalogues/furniture.swf"},
         {"url": "https://static.miraheze.org/cparchiveswiki/f/fd/December2011Furniture.swf", "filename": "furniture_2011_12/media/play/v2/content/local/en/catalogues/furniture.swf"}
-    ]
+    ],
+    "post_scripts": {
+        "actionscript_replacements": [
+            {"target_filename": "furniture_2005_10/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2005_11/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2005_12/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_01/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_02/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_03/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_04/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_05/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_06/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_07/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_08/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_09/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_10/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_11/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2006_12/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_01/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_02/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_03/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_04/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_05/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_06/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_07/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_08/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_09/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_10/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_11/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2007_12/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2008_01/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2008_02/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2008_03/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"},
+            {"target_filename": "furniture_2008_04/media/play/v2/content/local/en/catalogues/furniture.swf", "search": "_root.buyItem", "replace": "_root.buyFurniture"}
+        ]
+    }
 }

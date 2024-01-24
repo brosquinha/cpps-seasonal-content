@@ -1,8 +1,10 @@
 import json
+import os
+import re
 import subprocess
 import time
-import os
 from argparse import ArgumentParser
+from glob import glob
 from multiprocessing.dummy import Pool
 from urllib.request import build_opener, install_opener, urlretrieve
 from urllib.error import ContentTooShortError, HTTPError
@@ -41,6 +43,7 @@ def run_post_scripts(assets: dict):
     fix_as1_rooms(assets['target_path'], post_scripts.get('as1_rooms', []))
     apply_hard_links(assets['target_path'], post_scripts.get('hard_links', []))
     apply_actionscript_patches(assets['target_path'], post_scripts.get('actionscript_patches', []))
+    apply_actionscript_replacements(assets["target_path"], post_scripts.get('actionscript_replacements', []))
     apply_swf_replacements(assets['target_path'], post_scripts.get('swf_replacements', []))
     apply_swf_removals(assets['target_path'], post_scripts.get('swf_removals', []))
     
@@ -48,7 +51,7 @@ def fix_as1_rooms(base_path: str, filenames: list[str]):
     for filename in filenames:
         print(f'Fixing AS1 room {filename}')
         path = os.path.join(base_path, filename)
-        subprocess.run(["./jpexs/fix_as1_room.sh", path], check=True, capture_output=True)
+        _run_command(["./jpexs/fix_as1_room.sh", path])
         os.replace("./output.swf", path)
     if os.path.exists("./DoAction.as"):
         os.remove("./DoAction.as")
@@ -69,37 +72,71 @@ def apply_actionscript_patches(base_path: str, as_patches: list[dict]):
         path = os.path.join(base_path, patch['target_filename'])
         script_path_source = patch.get('script_path', {}).get('source')
         script_path_target = patch.get('script_path', {}).get('target')
-        subprocess.run(
-            ["./jpexs/extract_actionscript.sh", path] + ([script_path_source] if script_path_source else []),
-            check=True, capture_output=True)
-        subprocess.run(
-            ["patch", "DoAction.as", patch['patch_filename']],
-            check=True, capture_output=True)
-        subprocess.run(
-            ["./jpexs/replace_actionscript.sh", path, "DoAction.as"] + ([script_path_target] if script_path_target else []),
-            check=True, capture_output=True)
+        _run_command(
+            ["./jpexs/extract_actionscript.sh", path] + ([script_path_source] if script_path_source else []))
+        _run_command(
+            ["patch", "DoAction.as", patch['patch_filename']])
+        _run_command(
+            ["./jpexs/replace_actionscript.sh", path, "DoAction.as"] + ([script_path_target] if script_path_target else []))
         os.replace("./output.swf", path)
     if os.path.exists("./DoAction.as"):
         os.remove("./DoAction.as")
+        
+def apply_actionscript_replacements(base_path: str, as_replaces: list[dict]):
+    for item in as_replaces:
+        print(f'Replacing "{item["search"]}" for "{item["replace"]}" in {item["target_filename"]}')
+        path = os.path.join(base_path, item['target_filename'])
+        scripts_pattern = item.get('scripts_pattern', '**/*.as')
+        scripts_dir = os.path.join('/', 'tmp', 'ffdec_scripts', 'scripts')
+        _run_command(["./jpexs/extract_actionscript.sh", path])
+        script_paths_completed_process = _run_command(["./jpexs/list_all_actionscripts.sh", path])
+        script_paths = script_paths_completed_process.stdout.decode().split("\n")
+        script_paths_translations = {_translate_actionscript_path(x): x.strip() for x in script_paths if x.startswith("/")}
+        visited_scripts = []
+        for file in glob(scripts_pattern, root_dir=scripts_dir, recursive=True):
+            full_file_path = os.path.join(scripts_dir, file)
+            with open(full_file_path) as f:
+                new_content = f.read().replace(item["search"], item["replace"])
+            with open(full_file_path, 'w') as f:
+                f.write(new_content)
+            visited_scripts.append(file)
+        _run_command(
+            ["./jpexs/replace_multiple_actionscripts.sh", path, scripts_dir] +
+            [y for x in visited_scripts for y in [script_paths_translations[x], os.path.join('/', 'scripts', x)]])
+        os.replace("./output.swf", path)
+    if os.path.exists("./DoAction.as"):
+        os.remove("./DoAction.as")
+        
+def _translate_actionscript_path(as_path: str) -> str:
+    paths = as_path.strip().split("/")
+    translated_paths = []
+    for p in paths[:-1]:
+        translated_paths.append(re.sub(r'[\(\):]|(Depth:_)|(_\(pendulum\))|(_\(light\d\))', '', p.replace(" ", "_")))
+    return f'{"/".join(translated_paths[1:])}/{paths[-1]}.as'
     
 def apply_swf_replacements(base_path: str, swf_replaces: list[dict]):
     for item in swf_replaces:
         print(f'Replacing assets for {item["swf_filename"]}')
         path = os.path.join(base_path, item["swf_filename"])
         for replacement in item["replacements"]:
-            subprocess.run(
-                ["./jpexs/replace_asset.sh", path, replacement["asset_filename"], str(replacement["id"])] ,
-            check=True, capture_output=True)
+            _run_command(
+                ["./jpexs/replace_asset.sh", path, replacement["asset_filename"], str(replacement["id"])])
             os.replace("./output.swf", path)
             
 def apply_swf_removals(base_path: str, swf_removals: list[dict]):
     for item in swf_removals:
         print(f'Removing assets for {item["swf_filename"]}')
         path = os.path.join(base_path, item["swf_filename"])
-        subprocess.run(
-            ["./jpexs/remove_asset.sh", path, " ".join([str(x) for x in item["removals"]])],
-            check=True, capture_output=True)
+        _run_command(
+            ["./jpexs/remove_asset.sh", path, " ".join([str(x) for x in item["removals"]])])
         os.replace("./output.swf", path)
+        
+def _run_command(cmd_args: list[str]) -> subprocess.CompletedProcess:
+    try:
+        return subprocess.run(cmd_args, check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        print(e.output.decode())
+        raise e
 
 def main(assets_source_file: str, legacy_media_path: str):
     with open(assets_source_file) as f:
