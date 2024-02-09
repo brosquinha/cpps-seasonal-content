@@ -8,4 +8,4 @@ SCRIPT_PATH=${2-$DEFAULT_SCRIPT_PATH}
 rm -rf $OUTPUT_PATH
 mkdir -p $OUTPUT_PATH
 docker run -u 1000:1000 --rm -it -v ./$1:/file.swf -v $OUTPUT_PATH:/output jpexs -export script /output /file.swf
-mv $OUTPUT_PATH/scripts$SCRIPT_PATH ./DoAction.as
+mv "$OUTPUT_PATH/scripts$SCRIPT_PATH" ./DoAction.as

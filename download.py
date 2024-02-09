@@ -42,8 +42,8 @@ def run_post_scripts(assets: dict):
     post_scripts: dict = assets.get('post_scripts', {})
     fix_as1_rooms(assets['target_path'], post_scripts.get('as1_rooms', []))
     apply_hard_links(assets['target_path'], post_scripts.get('hard_links', []))
-    apply_actionscript_patches(assets['target_path'], post_scripts.get('actionscript_patches', []))
     apply_actionscript_replacements(assets["target_path"], post_scripts.get('actionscript_replacements', []))
+    apply_actionscript_patches(assets['target_path'], post_scripts.get('actionscript_patches', []))
     apply_swf_replacements(assets['target_path'], post_scripts.get('swf_replacements', []))
     apply_swf_removals(assets['target_path'], post_scripts.get('swf_removals', []))
     
@@ -136,6 +136,7 @@ def _run_command(cmd_args: list[str]) -> subprocess.CompletedProcess:
         return subprocess.run(cmd_args, check=True, capture_output=True)
     except subprocess.CalledProcessError as e:
         print(e.output.decode())
+        print(e.stderr.decode())
         raise e
 
 def main(assets_source_file: str, legacy_media_path: str):
