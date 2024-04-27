@@ -1,0 +1,41 @@
+{
+    "target_path": "legacy-media/parties/2010/fair",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a1/RoomsTown-TheFair2010.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/25/RoomsCoffee-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a2/RoomsDance-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c1/RoomsLounge-Fair2009.swf", "filename": "media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/22/RoomsForts-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/02/RoomsPlaza-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/61/RoomsForest-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a6/RoomsCove-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/54/RoomsBerg-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e0/RoomsDock-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/94/RoomsBeach-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6f/RoomsBeacon-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/beacon.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fc/RoomsVillage-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c3/RoomsMtn-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/mtn.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ec/RoomsParty-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/74/RoomsParty2-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cb/RoomsParty3-Fair2010.swf", "filename": "media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cb/Music297.swf", "filename": "media/play/v2/content/global/music/297.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9d/Music221.swf", "filename": "media/play/v2/content/global/music/221.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/16/Music222.swf", "filename": "media/play/v2/content/global/music/222.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c3/TheFair2010PrizeBooth2.swf", "filename": "media/play/v2/content/local/en/catalogues/prizebooth.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d4/TheFair2010PrizeBoothMember2.swf", "filename": "media/play/v2/content/local/en/catalogues/prizeboothmember.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0b/RoomsBeach-PreFair2010.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/the_fair_september/tickets.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/the_fair_september/ticket_icon.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f9/LoginFairParty2010.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/be/StartscreenFairMember10.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b8/TheFair2010PrizeBooth.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8f/TheFair2010PrizeBoothMember.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/fair_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
