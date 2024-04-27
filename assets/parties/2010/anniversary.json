@@ -1,0 +1,14 @@
+{
+    "target_path": "legacy-media/parties/2010/anniversary",
+    "assets": [
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/5/5c/5thAnniversaryPartyBook.swf", "filename": "media/play/v2/content/global/rooms/book.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/6/6f/5thAnniversaryPartyCoffee.swf", "filename": "media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9c/RoomsTown-5thAnniversaryParty.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3e/Music218.swf", "filename": "media/play/v2/content/global/music/218.swf"}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/anniversary_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
