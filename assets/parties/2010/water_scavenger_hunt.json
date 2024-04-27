@@ -1,0 +1,27 @@
+{
+    "target_path": "legacy-media/parties/2010/water_scavenger_hunt",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e3/WaterHuntBeach.swf", "filename": "media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/62/WaterHuntDock.swf", "filename": "media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bf/WaterDojoConstruction.swf", "filename": "media/play/v2/content/global/rooms/dojowater.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/da/RoomsTown-WaterScavengerHunt.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/7/79/WaterHuntBoiler.swf", "filename": "media/play/v2/content/global/rooms/boiler.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/4/4d/WaterHuntBook.swf", "filename": "media/play/v2/content/global/rooms/book.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/4/4d/WaterHuntCave.swf", "filename": "media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/6/63/WaterHuntCavemine.swf", "filename": "media/play/v2/content/global/rooms/cavemine.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/d/d7/WaterHuntCoffee.swf", "filename": "media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/6/6c/WaterHuntCove.swf", "filename": "media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/6/68/WaterHuntLounge.swf", "filename": "media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/1/10/WaterHuntDojoext.swf", "filename": "media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/5/5b/WaterHuntForest.swf", "filename": "media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/5/54/WaterHuntLake.swf", "filename": "media/play/v2/content/global/rooms/lake.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/7/70/WaterHuntMine.swf", "filename": "media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/8/8c/WaterHuntDojohide.swf", "filename": "media/play/v2/content/global/rooms/dojohide.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/0/0f/WaterHuntPlaza.swf", "filename": "media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/2/21/WaterHuntPet.swf", "filename": "media/play/v2/content/global/rooms/pet.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/static/images/archives/4/41/WaterHuntForts.swf", "filename": "media/play/v2/content/global/rooms/forts.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/06/Sensei_Water_Scavenger_Hunt_closeup.swf", "filename": ""}
+    ]
+}
