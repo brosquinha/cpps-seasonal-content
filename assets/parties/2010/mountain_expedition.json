@@ -1,0 +1,31 @@
+{
+    "target_path": "legacy-media/parties/2010/mountain_expedition",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c0/RoomsParty3-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/65/RoomsParty6-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party6.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8c/RoomsParty2-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d1/RoomsParty4-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party4.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/db/RoomsPlaza-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5c/RoomsVillage-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4c/RoomsParty1-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3b/RoomsParty5-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/party5.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b7/RoomsTown-MtnExpedition.swf", "filename" : "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/33/Music256.swf", "filename" : "media/play/v2/content/global/music/256.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a8/Music295.swf", "filename" : "media/play/v2/content/global/music/295.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/94/Music294.swf", "filename" : "media/play/v2/content/global/music/294.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b9/LocalEnCataloguesMerchAugust2010.swf", "filename" : "media/play/v2/content/local/en/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/43/LocalPtCataloguesMerchAugust2010.swf", "filename" : "media/play/v2/content/local/pt/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ac/LocalFrCataloguesMerchAugust2010.swf", "filename" : "media/play/v2/content/local/fr/catalogues/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e6/LocalEsCataloguesMerchAugust2010.swf", "filename" : "media/play/v2/content/local/es/catalogues/party.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c8/RoomsVillage-MtnExpeditionPre.swf", "filename" : ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cf/MountainExpeditionMembershipOopsExpedition.swf", "filename" : ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/eb/ENMtnExpeditionLogin.swf", "filename" : ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/mountain_expedition_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
