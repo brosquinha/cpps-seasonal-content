@@ -1,0 +1,59 @@
+{
+    "target_path": "legacy-media/parties/2010/music",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b9/RoomsParty3-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/17/RoomsBeach-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ec/RoomsParty4-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/party4.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2c/RoomsCave-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5e/RoomsCoffee-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2a/RoomsCove-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6c/RoomsLounge-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1a/RoomsDock-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/90/RoomsForest-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/52/RoomsBerg-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/de/RoomsLight-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/light.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/62/RoomsMine-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/RoomsParty-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fd/RoomsDance-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/ff/RoomsParty2-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d3/RoomsPizza-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/pizza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6d/RoomsPlaza-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/04/RoomsForts-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/12/RoomsRink-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/rink.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/43/RoomsVillage-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fa/RoomsTown-MusicJam2010.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/69/RoomsBeach-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/40/RoomsCoffee-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/RoomsCove-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fe/RoomsDock-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/57/RoomsForest-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/af/RoomsBerg-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/50/RoomsLight-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/light.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4e/RoomsVillage-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/eb/RoomsForts-MusicJam2010Pre.swf", "filename": "construction/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/85/Music293.swf", "filename": "party/media/play/v2/content/global/music/293.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/69/Music296.swf", "filename": "party/media/play/v2/content/global/music/296.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/26/Music244.swf", "filename": "party/media/play/v2/content/global/music/244.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ec/Music247.swf", "filename": "party/media/play/v2/content/global/music/247.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d1/Music242.swf", "filename": "party/media/play/v2/content/global/music/242.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f5/Music249.swf", "filename": "party/media/play/v2/content/global/music/249.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e1/Music258.swf", "filename": "party/media/play/v2/content/global/music/258.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2e/Music272.swf", "filename": "party/media/play/v2/content/global/music/272.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d2/Music275.swf", "filename": "party/media/play/v2/content/global/music/275.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8b/Music271.swf", "filename": "party/media/play/v2/content/global/music/271.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b3/Music240.swf", "filename": "party/media/play/v2/content/global/music/240.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b0/Music292.swf", "filename": "party/media/play/v2/content/global/music/292.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c4/Music1.swf", "filename": "party/media/play/v2/content/global/music/1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/35/MusicJam2010Merch.swf", "filename": "party/media/play/v2/content/local/en/catalogues/merch.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c9/MusicJam2010TownPoster.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7a/LoginMusicJam2010%281%29.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/53/LoginMusicJam2010%282%29.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/music_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
