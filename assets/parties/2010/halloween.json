@@ -1,0 +1,63 @@
+{
+    "target_path": "legacy-media/parties/2010/halloween",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/81/HalloweenParty2010Beach.swf", "filename": "media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5e/HalloweenParty2010Lighthouse.swf", "filename": "media/play/v2/content/global/rooms/light.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0e/HalloweenParty2010Beacon.swf", "filename": "media/play/v2/content/global/rooms/beacon.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/31/HalloweenParty2010Berg.swf", "filename": "media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9b/HalloweenParty2010Book.swf", "filename": "media/play/v2/content/global/rooms/book.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c1/HalloweenParty2010Cave.swf", "filename": "media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0e/HalloweenParty2010SnowForts.swf", "filename": "media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1f/HalloweenParty2010Stadium.swf", "filename": "media/play/v2/content/global/rooms/stadium.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7a/HalloweenParty2010SkiVIllage.swf", "filename": "media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d8/HalloweenParty2010SkiHill.swf", "filename": "media/play/v2/content/global/rooms/mtn.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/34/HalloweenParty2010Lodge.swf", "filename": "media/play/v2/content/global/rooms/lodge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f9/HalloweenParty2010Attic.swf", "filename": "media/play/v2/content/global/rooms/attic.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/75/HalloweenParty2010Cove.swf", "filename": "media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/64/HalloweenParty2010Party4.swf", "filename": "media/play/v2/content/global/rooms/party4.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/08/HalloweenParty2010Party3.swf", "filename": "media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c4/HalloweenParty2010Dock.swf", "filename": "media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bb/HalloweenParty2010Dojo.swf", "filename": "media/play/v2/content/global/rooms/dojo.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/46/HalloweenParty2010DojoExt.swf", "filename": "media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ea/HalloweenParty2010DojoFire.swf", "filename": "media/play/v2/content/global/rooms/dojofire.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/ba/HalloweenParty2010Plaza.swf", "filename": "media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/49/HalloweenParty2010PetShop.swf", "filename": "media/play/v2/content/global/rooms/pet.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8d/HalloweenParty2010Stage.swf", "filename": "media/play/v2/content/global/rooms/stage.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e1/HalloweenParty2010PizzaParlor.swf", "filename": "media/play/v2/content/global/rooms/pizza.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ab/HalloweenParty2010Shack.swf", "filename": "media/play/v2/content/global/rooms/shack.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/72/HalloweenParty2010Forest.swf", "filename": "media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/23/HalloweenParty2010Party2.swf", "filename": "media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a1/HalloweenParty2010Party1.swf", "filename": "media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ef/HalloweenParty2010Party5.swf", "filename": "media/play/v2/content/global/rooms/party5.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/98/RoomsTown-HalloweenParty2010.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c0/HalloweenParty2010Coffee.swf", "filename": "media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/9c/HalloweenParty2010Dance.swf", "filename": "media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6c/HalloweenParty2010Lounge.swf", "filename": "media/play/v2/content/global/rooms/lounge.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f2/HalloweenParty2010GiftShop.swf", "filename": "media/play/v2/content/global/rooms/shop.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/de/HalloweenParty2010DojoHide.swf", "filename": "media/play/v2/content/global/rooms/dojohide.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/5b/Music251.swf", "filename": "media/play/v2/content/global/music/251.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f5/Music252.swf", "filename": "media/play/v2/content/global/music/252.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/49/Music223.swf", "filename": "media/play/v2/content/global/music/223.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/da/Music299.swf", "filename": "media/play/v2/content/global/music/299.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3f/Music300.swf", "filename": "media/play/v2/content/global/music/300.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/ad/Music298.swf", "filename": "media/play/v2/content/global/music/298.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d2/Music253.swf", "filename": "media/play/v2/content/global/music/253.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f1/HalloweenParty2010Poster.swf", "filename": "media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0b/PTCloseUpsHalloweenPoster2010.swf", "filename": "media/play/v2/content/local/pt/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/6b/FRCloseUpsHalloweenPoster2010.swf", "filename": "media/play/v2/content/local/fr/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/35/ESCloseUpsHalloweenPoster2010.swf", "filename": "media/play/v2/content/local/es/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b5/CataloguesENParty-HalloweenParty2010.swf", "filename": "media/play/v2/content/local/en/catalogues/party.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/39/HalloweenParty2010MembershipParty3.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/cd/Halloween2010LoginScreen1.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b8/Halloween2010LoginScreen2.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/3f/Halloween2010LoginScreen3.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/e8/HalloweenParty2010Map.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/halloween_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
