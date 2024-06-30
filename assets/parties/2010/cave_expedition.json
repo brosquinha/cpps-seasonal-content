@@ -1,0 +1,35 @@
+{
+    "target_path": "legacy-media/parties/2010/cave_expedition",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c2/RoomsMine-Rockslide1.swf", "filename": "rock_slide_1/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/8b/RoomsMine-Rockslide2.swf", "filename": "rock_slide_2/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/36/RoomsParty1-CaveExpedition.swf", "filename": "party/media/play/v2/content/global/rooms/party1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/97/RoomsParty2-CaveExpedition.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/5/56/RoomsParty3-CaveExpedition.swf", "filename": "party/media/play/v2/content/global/rooms/party3.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/3/31/RoomsMine-CaveExpedition.swf", "filename": "party/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/b8/RoomsMine-PostCaveExpedition.swf", "filename": "post_party/media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/90/PlayV2ContentEnClose_upsDigposter.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/93/ENCloseUpsDigPoster2-Jan2010.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/0c/ENCataloguesParty1-CaveExpedition.swf", "filename": "party/media/play/v2/content/local/en/catalogues/party.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1c/ENCloseUpsTreasurePin1.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/eb/PTCloseUpsTreasurePin1.swf", "filename": "party/media/play/v2/content/local/pt/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/96/FRCloseUpsTreasurePin1.swf", "filename": "party/media/play/v2/content/local/fr/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2d/ESCloseUpsTreasurePin1.swf", "filename": "party/media/play/v2/content/local/es/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1a/ENCloseUpsTreasurePin2.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/d4/PTCloseUpsTreasurePin2.swf", "filename": "party/media/play/v2/content/local/pt/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7f/FRCloseUpsTreasurePin2.swf", "filename": "party/media/play/v2/content/local/fr/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1c/ESCloseUpsTreasurePin2.swf", "filename": "party/media/play/v2/content/local/es/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a0/ENCloseUpsTreasurePin3.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/a/a2/PTCloseUpsTreasurePin3.swf", "filename": "party/media/play/v2/content/local/pt/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/e/ed/FRCloseUpsTreasurePin3.swf", "filename": "party/media/play/v2/content/local/fr/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c4/ESCloseUpsTreasurePin3.swf", "filename": "party/media/play/v2/content/local/es/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fe/ENCloseUpsTreasurePin4.swf", "filename": "party/media/play/v2/content/local/en/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/04/PTCloseUpsTreasurePin4.swf", "filename": "party/media/play/v2/content/local/pt/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/03/FRCloseUpsTreasurePin4.swf", "filename": "party/media/play/v2/content/local/fr/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/df/ESCloseUpsTreasurePin4.swf", "filename": "party/media/play/v2/content/local/es/close_ups/poster.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/9/95/Global_Crumbs-2010122.swf", "filename": ""},
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/05/Local_Crumbs-2010122.swf", "filename": ""}
+    ]
+}
