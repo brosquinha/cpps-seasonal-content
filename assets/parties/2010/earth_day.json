@@ -1,0 +1,29 @@
+{
+    "target_path": "legacy-media/parties/2010/earth_day",
+    "assets": [
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/pre-party/shack.swf", "filename": "construction/media/play/v2/content/global/rooms/shack.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/town.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/coffee.swf", "filename": "party/media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/book.swf", "filename": "party/media/play/v2/content/global/rooms/book.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/plaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/pet.swf", "filename": "party/media/play/v2/content/global/rooms/pet.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/mtn.swf", "filename": "party/media/play/v2/content/global/rooms/mtn.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/village.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/forest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/cove.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/shack.swf", "filename": "party/media/play/v2/content/global/rooms/shack.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/dojoext.swf", "filename": "party/media/play/v2/content/global/rooms/dojoext.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/c/c4/Music1.swf", "filename": "party/media/play/v2/content/global/music/1.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/Music219.swf", "filename": "party/media/play/v2/content/global/music/219.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/recycle.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/recycle_icon.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/earth_day_april/startscreen/earth_day.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/earth_day_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
