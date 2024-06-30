@@ -1,0 +1,27 @@
+{
+    "target_path": "legacy-media/parties/2010/penguin_play_awards",
+    "assets": [
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/penguin_play_awards_march/dock.swf", "filename": "media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/penguin_play_awards_march/mtn.swf", "filename": "media/play/v2/content/global/rooms/mtn.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/penguin_play_awards_march/pizza.swf", "filename": "media/play/v2/content/global/rooms/pizza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/penguin_play_awards_march/plaza.swf", "filename": "media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/penguin_play_awards_march/town.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f4/RoomsParty-PenguinPlayAwards2010.swf", "filename": "media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/d/da/RoomsStage-PenguinPlayAwards2010.swf", "filename": "media/play/v2/content/global/rooms/stage.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/64/Music40.swf", "filename": "media/play/v2/content/global/music/40.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/1b/Music283.swf", "filename": "media/play/v2/content/global/music/283.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/66/ContentShortsfairyFables.swf", "filename": "media/play/v2/content/global/content/shorts/fairyFables.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/7c/ContentShortsgoldenPuffle.swf", "filename": "media/play/v2/content/global/content/shorts/goldenPuffle.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4b/ContentShortsRuby.swf", "filename": "media/play/v2/content/global/content/shorts/ruby.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/87/ContentShortssquidzoid.swf", "filename": "media/play/v2/content/global/content/shorts/squidzoid.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/fe/ContentShortsunderwater.swf", "filename": "media/play/v2/content/global/content/shorts/nderwater.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/72/ContentWinnersPPA2010.swf", "filename": "media/play/v2/content/global/content/shorts/"}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/penguin_play_awards_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
