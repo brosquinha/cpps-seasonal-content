@@ -1,0 +1,37 @@
+{
+    "target_path": "legacy-media/parties/2010/april_fools",
+    "assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/0/01/AprilFoolsParty2010GiftShop.swf", "filename": "media/play/v2/content/global/rooms/shop.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/party.swf", "filename": "media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/beach.swf", "filename": "media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/beacon.swf", "filename": "media/play/v2/content/global/rooms/beacon.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/boiler.swf", "filename": "media/play/v2/content/global/rooms/boiler.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/cave.swf", "filename": "media/play/v2/content/global/rooms/cave.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/coffee.swf", "filename": "media/play/v2/content/global/rooms/coffee.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/cove.swf", "filename": "media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/dock.swf", "filename": "media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/forest.swf", "filename": "media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/berg.swf", "filename": "media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/dance.swf", "filename": "media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/mine.swf", "filename": "media/play/v2/content/global/rooms/mine.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/shack.swf", "filename": "media/play/v2/content/global/rooms/shack.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/village.swf", "filename": "media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/forts.swf", "filename": "media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/april_fools_party_april/town.swf", "filename": "media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/2/2a/Music261.swf", "filename": "media/play/v2/content/global/music/261.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/46/Music232.swf", "filename": "media/play/v2/content/global/music/232.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/49/Music231.swf", "filename": "media/play/v2/content/global/music/231.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/87/Music201.swf", "filename": "media/play/v2/content/global/music/201.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f5/AprilFoolsParty2010MembershipOopsAprilFools.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/april_fools_rooms.json", "media/play/v2/content/global/crumbs/rooms.json"],
+            ["../../2011/april_fools/party/media/play/v2/content/global/rooms/light.swf", "media/play/v2/content/global/rooms/light.swf"],
+            ["../../2011/april_fools/party/media/play/v2/content/global/rooms/pizza.swf", "media/play/v2/content/global/rooms/pizza.swf"],
+            ["../../2011/april_fools/party/media/play/v2/content/global/rooms/lodge.swf", "media/play/v2/content/global/rooms/lodge.swf"]
+        ]
+    }
+}
