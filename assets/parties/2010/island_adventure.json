@@ -1,0 +1,38 @@
+{
+    "target_path": "legacy-media/parties/2010/island_adventure",
+    "assets": [
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/before/beach.swf", "filename": "construction/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/before/cove.swf", "filename": "construction/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/before/plaza.swf", "filename": "construction/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/before/town.swf", "filename": "construction/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/town.swf", "filename": "party/media/play/v2/content/global/rooms/town.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/dance.swf", "filename": "party/media/play/v2/content/global/rooms/dance.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/forts.swf", "filename": "party/media/play/v2/content/global/rooms/forts.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/plaza.swf", "filename": "party/media/play/v2/content/global/rooms/plaza.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/forest.swf", "filename": "party/media/play/v2/content/global/rooms/forest.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/lake.swf", "filename": "party/media/play/v2/content/global/rooms/lake.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/cove.swf", "filename": "party/media/play/v2/content/global/rooms/cove.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/dock.swf", "filename": "party/media/play/v2/content/global/rooms/dock.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/beach.swf", "filename": "party/media/play/v2/content/global/rooms/beach.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/village.swf", "filename": "party/media/play/v2/content/global/rooms/village.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/berg.swf", "filename": "party/media/play/v2/content/global/rooms/berg.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/party.swf", "filename": "party/media/play/v2/content/global/rooms/party.swf"},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/party2.swf", "filename": "party/media/play/v2/content/global/rooms/party2.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/f/f0/Music291.swf", "filename": "party/media/play/v2/content/global/music/291.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/4/4e/Music290.swf", "filename": "party/media/play/v2/content/global/music/290.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/6/60/Music41.swf", "filename": "party/media/play/v2/content/global/music/41.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/b/bf/Music268.swf", "filename": "party/media/play/v2/content/global/music/268.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/7/77/Music269.swf", "filename": "party/media/play/v2/content/global/music/269.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/1/17/Music267.swf", "filename": "party/media/play/v2/content/global/music/267.swf"},
+        {"url": "https://static.miraheze.org/cparchiveswiki/8/89/Music289.swf", "filename": "party/media/play/v2/content/global/music/289.swf"}
+    ],
+    "unused_assets": [
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/before/island_adventure.swf", "filename": ""},
+        {"url": "https://toolbox.solero.me/cparchives/swf.cpcheats.info/rooms/2010/island_adventure_party/island_adventure_2.swf", "filename": ""}
+    ],
+    "post_scripts": {
+        "hard_links": [
+            ["../../../../assets/parties/2010/island_adventure_rooms.json", "party/media/play/v2/content/global/crumbs/rooms.json"]
+        ]
+    }
+}
